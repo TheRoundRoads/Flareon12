@@ -79,12 +79,15 @@ Also, the actual code for `TripleXOROracle.encrypt` and `LCGOracle.get_next` are
 
 
 This allows to formulate our **game plan**:
+
 Step 1: Obtain the outputs of `LCGOracle`
+
 Using the chatlogs with `"mode": "LCG-XOR"`, we are able to extract the LCG numbers using `lcg = ct ^ pt ^ conversation_time`.
 
 This gives us 7 numbers generated using LCG.
 
 Step 2: Crack LCG
+
 We can use the code from https://github.com/TomasGlgg/LCGHack to obtained the values (m, c, n)
 
 We need at least 6 numbers to obtain the modulus. Luckily we are given 7!
@@ -98,6 +101,7 @@ Increment: 610777334518710285443356255225635340652221479724930763690379873947129
 ```
 
 Step 3: Obtain the primes
+
 Run the function `generate_rsa_key_from_lcg` to deterministically generate primes from the LCGOracle. 
 Helper script used is `get_primes.py`
 
