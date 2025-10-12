@@ -1,0 +1,2901 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (None)
+              6 IMPORT_NAME              0 (tkinter)
+              8 STORE_NAME               1 (tk)
+
+  2          10 LOAD_CONST               0 (0)
+             12 LOAD_CONST               2 (('scrolledtext', 'messagebox', 'simpledialog', 'Checkbutton', 'BooleanVar', 'Toplevel'))
+             14 IMPORT_NAME              0 (tkinter)
+             16 IMPORT_FROM              2 (scrolledtext)
+             18 STORE_NAME               2 (scrolledtext)
+             20 IMPORT_FROM              3 (messagebox)
+             22 STORE_NAME               3 (messagebox)
+             24 IMPORT_FROM              4 (simpledialog)
+             26 STORE_NAME               4 (simpledialog)
+             28 IMPORT_FROM              5 (Checkbutton)
+             30 STORE_NAME               5 (Checkbutton)
+             32 IMPORT_FROM              6 (BooleanVar)
+             34 STORE_NAME               6 (BooleanVar)
+             36 IMPORT_FROM              7 (Toplevel)
+             38 STORE_NAME               7 (Toplevel)
+             40 POP_TOP
+
+  3          42 LOAD_CONST               0 (0)
+             44 LOAD_CONST               1 (None)
+             46 IMPORT_NAME              8 (platform)
+             48 STORE_NAME               8 (platform)
+
+  4          50 LOAD_CONST               0 (0)
+             52 LOAD_CONST               1 (None)
+             54 IMPORT_NAME              9 (hashlib)
+             56 STORE_NAME               9 (hashlib)
+
+  5          58 LOAD_CONST               0 (0)
+             60 LOAD_CONST               1 (None)
+             62 IMPORT_NAME             10 (time)
+             64 STORE_NAME              10 (time)
+
+  6          66 LOAD_CONST               0 (0)
+             68 LOAD_CONST               1 (None)
+             70 IMPORT_NAME             11 (json)
+             72 STORE_NAME              11 (json)
+
+  7          74 LOAD_CONST               0 (0)
+             76 LOAD_CONST               3 (('Thread',))
+             78 IMPORT_NAME             12 (threading)
+             80 IMPORT_FROM             13 (Thread)
+             82 STORE_NAME              13 (Thread)
+             84 POP_TOP
+
+  8          86 LOAD_CONST               0 (0)
+             88 LOAD_CONST               1 (None)
+             90 IMPORT_NAME             14 (math)
+             92 STORE_NAME              14 (math)
+
+  9          94 LOAD_CONST               0 (0)
+             96 LOAD_CONST               1 (None)
+             98 IMPORT_NAME             15 (random)
+            100 STORE_NAME              15 (random)
+
+ 10         102 LOAD_CONST               0 (0)
+            104 LOAD_CONST               4 (('RSA',))
+            106 IMPORT_NAME             16 (Crypto.PublicKey)
+            108 IMPORT_FROM             17 (RSA)
+            110 STORE_NAME              17 (RSA)
+            112 POP_TOP
+
+ 11         114 LOAD_CONST               0 (0)
+            116 LOAD_CONST               5 (('bytes_to_long', 'long_to_bytes', 'isPrime'))
+            118 IMPORT_NAME             18 (Crypto.Util.number)
+            120 IMPORT_FROM             19 (bytes_to_long)
+            122 STORE_NAME              19 (bytes_to_long)
+            124 IMPORT_FROM             20 (long_to_bytes)
+            126 STORE_NAME              20 (long_to_bytes)
+            128 IMPORT_FROM             21 (isPrime)
+            130 STORE_NAME              21 (isPrime)
+            132 POP_TOP
+
+ 12         134 LOAD_CONST               0 (0)
+            136 LOAD_CONST               1 (None)
+            138 IMPORT_NAME             22 (os)
+            140 STORE_NAME              22 (os)
+
+ 13         142 LOAD_CONST               0 (0)
+            144 LOAD_CONST               1 (None)
+            146 IMPORT_NAME             23 (sys)
+            148 STORE_NAME              23 (sys)
+
+ 14         150 LOAD_CONST               0 (0)
+            152 LOAD_CONST               6 (('Web3',))
+            154 IMPORT_NAME             24 (web3)
+            156 IMPORT_FROM             25 (Web3)
+            158 STORE_NAME              25 (Web3)
+            160 POP_TOP
+
+ 15         162 LOAD_CONST               0 (0)
+            164 LOAD_CONST               7 (('Account',))
+            166 IMPORT_NAME             26 (eth_account)
+            168 IMPORT_FROM             27 (Account)
+            170 STORE_NAME              27 (Account)
+            172 POP_TOP
+
+ 16         174 LOAD_CONST               0 (0)
+            176 LOAD_CONST               8 (('LocalAccount',))
+            178 IMPORT_NAME             28 (eth_account.signers.local)
+            180 IMPORT_FROM             29 (LocalAccount)
+            182 STORE_NAME              29 (LocalAccount)
+            184 POP_TOP
+
+ 18         186 LOAD_CONST               9 (<code object resource_path at 0x7f36a20007b0, file "challenge_to_compile.py", line 18>)
+            188 MAKE_FUNCTION            0
+            190 STORE_NAME              30 (resource_path)
+
+ 32         192 PUSH_NULL
+            194 LOAD_BUILD_CLASS
+            196 LOAD_CONST              10 (<code object SmartContracts at 0x7f36a1b09c30, file "challenge_to_compile.py", line 32>)
+            198 MAKE_FUNCTION            0
+            200 LOAD_CONST              11 ('SmartContracts')
+            202 CALL                     2
+            210 STORE_NAME              31 (SmartContracts)
+
+102         212 PUSH_NULL
+            214 LOAD_BUILD_CLASS
+            216 LOAD_CONST              12 (<code object LCGOracle at 0x7f36a1b09a70, file "challenge_to_compile.py", line 102>)
+            218 MAKE_FUNCTION            0
+            220 LOAD_CONST              13 ('LCGOracle')
+            222 CALL                     2
+            230 STORE_NAME              32 (LCGOracle)
+
+130         232 PUSH_NULL
+            234 LOAD_BUILD_CLASS
+            236 LOAD_CONST              14 (<code object TripleXOROracle at 0x7f36a1b0aa30, file "challenge_to_compile.py", line 130>)
+            238 MAKE_FUNCTION            0
+            240 LOAD_CONST              15 ('TripleXOROracle')
+            242 CALL                     2
+            250 STORE_NAME              33 (TripleXOROracle)
+
+151         252 PUSH_NULL
+            254 LOAD_BUILD_CLASS
+            256 LOAD_CONST              16 (<code object ChatLogic at 0x7f36a1b55a30, file "challenge_to_compile.py", line 151>)
+            258 MAKE_FUNCTION            0
+            260 LOAD_CONST              17 ('ChatLogic')
+            262 CALL                     2
+            270 STORE_NAME              34 (ChatLogic)
+
+305         272 PUSH_NULL
+            274 LOAD_BUILD_CLASS
+            276 LOAD_CONST              18 (<code object ChatApp at 0x7f36a1ff2670, file "challenge_to_compile.py", line 305>)
+            278 MAKE_FUNCTION            0
+            280 LOAD_CONST              19 ('ChatApp')
+            282 LOAD_NAME                1 (tk)
+            284 LOAD_ATTR               70 (Tk)
+            304 CALL                     3
+            312 STORE_NAME              36 (ChatApp)
+
+478         314 LOAD_NAME               37 (__name__)
+            316 LOAD_CONST              20 ('__main__')
+            318 COMPARE_OP              40 (==)
+            322 POP_JUMP_IF_FALSE       24 (to 372)
+
+479         324 PUSH_NULL
+            326 LOAD_NAME               36 (ChatApp)
+            328 CALL                     0
+            336 STORE_NAME              38 (app)
+
+480         338 LOAD_NAME               38 (app)
+            340 LOAD_ATTR               79 (NULL|self + mainloop)
+            360 CALL                     0
+            368 POP_TOP
+            370 RETURN_CONST             1 (None)
+
+478     >>  372 RETURN_CONST             1 (None)
+
+Disassembly of <code object resource_path at 0x7f36a20007b0, file "challenge_to_compile.py", line 18>:
+ 18           0 RESUME                   0
+
+ 23           2 NOP
+
+ 25           4 LOAD_GLOBAL              0 (sys)
+             14 LOAD_ATTR                2 (_MEIPASS)
+             34 STORE_FAST               1 (base_path)
+
+ 30     >>   36 LOAD_GLOBAL              6 (os)
+             46 LOAD_ATTR                8 (path)
+             66 LOAD_ATTR               13 (NULL|self + join)
+             86 LOAD_FAST                1 (base_path)
+             88 LOAD_FAST                0 (relative_path)
+             90 CALL                     2
+             98 RETURN_VALUE
+        >>  100 PUSH_EXC_INFO
+
+ 26         102 LOAD_GLOBAL              4 (Exception)
+            112 CHECK_EXC_MATCH
+            114 POP_JUMP_IF_FALSE       34 (to 184)
+            116 POP_TOP
+
+ 28         118 LOAD_GLOBAL              6 (os)
+            128 LOAD_ATTR                8 (path)
+            148 LOAD_ATTR               11 (NULL|self + abspath)
+            168 LOAD_CONST               1 ('.')
+            170 CALL                     1
+            178 STORE_FAST               1 (base_path)
+            180 POP_EXCEPT
+            182 JUMP_BACKWARD           74 (to 36)
+
+ 26     >>  184 RERAISE                  0
+        >>  186 COPY                     3
+            188 POP_EXCEPT
+            190 RERAISE                  1
+ExceptionTable:
+  4 to 34 -> 100 [0]
+  100 to 178 -> 186 [1] lasti
+  184 to 184 -> 186 [1] lasti
+
+Disassembly of <code object SmartContracts at 0x7f36a1b09c30, file "challenge_to_compile.py", line 32>:
+ 32           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('SmartContracts')
+              8 STORE_NAME               2 (__qualname__)
+
+ 33          10 LOAD_CONST               1 ('')
+             12 STORE_NAME               3 (rpc_url)
+
+ 34          14 LOAD_CONST               1 ('')
+             16 STORE_NAME               4 (private_key)
+
+ 36          18 LOAD_CONST               2 (<code object deploy_contract at 0x55763e373b00, file "challenge_to_compile.py", line 36>)
+             20 MAKE_FUNCTION            0
+             22 STORE_NAME               5 (deploy_contract)
+             24 RETURN_CONST             3 (None)
+
+Disassembly of <code object deploy_contract at 0x55763e373b00, file "challenge_to_compile.py", line 36>:
+ 36           0 RESUME                   0
+
+ 37           2 NOP
+
+ 38           4 LOAD_GLOBAL              1 (NULL + Web3)
+             14 LOAD_GLOBAL              1 (NULL + Web3)
+             24 LOAD_ATTR                2 (HTTPProvider)
+             44 LOAD_GLOBAL              4 (SmartContracts)
+             54 LOAD_ATTR                6 (rpc_url)
+             74 CALL                     1
+             82 CALL                     1
+             90 STORE_FAST               2 (w3)
+
+ 40          92 LOAD_FAST                2 (w3)
+             94 LOAD_ATTR                9 (NULL|self + is_connected)
+            114 CALL                     0
+            122 POP_JUMP_IF_TRUE        28 (to 180)
+
+ 41         124 LOAD_GLOBAL             11 (NULL + ConnectionError)
+            134 LOAD_CONST               1 ('[!] Failed to connect to Ethereum network at ')
+            136 LOAD_GLOBAL              4 (SmartContracts)
+            146 LOAD_ATTR                6 (rpc_url)
+            166 FORMAT_VALUE             0
+            168 BUILD_STRING             2
+            170 CALL                     1
+            178 RAISE_VARARGS            1
+
+ 42     >>  180 LOAD_GLOBAL             13 (NULL + print)
+            190 LOAD_CONST               2 ('[+] Connected to Sepolia network at ')
+            192 LOAD_GLOBAL              4 (SmartContracts)
+            202 LOAD_ATTR                6 (rpc_url)
+            222 FORMAT_VALUE             0
+            224 BUILD_STRING             2
+            226 CALL                     1
+            234 POP_TOP
+
+ 43         236 LOAD_GLOBAL             13 (NULL + print)
+            246 LOAD_CONST               3 ('[+] Current block number: ')
+            248 LOAD_FAST                2 (w3)
+            250 LOAD_ATTR               14 (eth)
+            270 LOAD_ATTR               16 (block_number)
+            290 FORMAT_VALUE             0
+            292 BUILD_STRING             2
+            294 CALL                     1
+            302 POP_TOP
+
+ 45         304 LOAD_GLOBAL              4 (SmartContracts)
+            314 LOAD_ATTR               18 (private_key)
+            334 POP_JUMP_IF_TRUE        11 (to 358)
+
+ 46         336 LOAD_GLOBAL             21 (NULL + ValueError)
+            346 LOAD_CONST               4 ('Please add your private key.')
+            348 CALL                     1
+            356 RAISE_VARARGS            1
+
+ 48     >>  358 LOAD_GLOBAL             23 (NULL + Account)
+            368 LOAD_ATTR               24 (from_key)
+            388 LOAD_GLOBAL              4 (SmartContracts)
+            398 LOAD_ATTR               18 (private_key)
+            418 CALL                     1
+            426 STORE_FAST               3 (account)
+
+ 49         428 LOAD_FAST                3 (account)
+            430 LOAD_ATTR               26 (address)
+            450 LOAD_FAST                2 (w3)
+            452 LOAD_ATTR               14 (eth)
+            472 STORE_ATTR              14 (default_account)
+
+ 50         482 LOAD_GLOBAL             13 (NULL + print)
+            492 LOAD_CONST               5 ('[+] Using account: ')
+            494 LOAD_FAST                3 (account)
+            496 LOAD_ATTR               26 (address)
+            516 FORMAT_VALUE             0
+            518 BUILD_STRING             2
+            520 CALL                     1
+            528 POP_TOP
+
+ 51         530 LOAD_FAST                2 (w3)
+            532 LOAD_ATTR               14 (eth)
+            552 LOAD_ATTR               31 (NULL|self + get_balance)
+            572 LOAD_FAST                3 (account)
+            574 LOAD_ATTR               26 (address)
+            594 CALL                     1
+            602 STORE_FAST               4 (balance_wei)
+
+ 52         604 LOAD_GLOBAL             13 (NULL + print)
+            614 LOAD_CONST               6 ('[+] Account balance: ')
+            616 LOAD_FAST                2 (w3)
+            618 LOAD_ATTR               33 (NULL|self + from_wei)
+            638 LOAD_FAST                4 (balance_wei)
+            640 LOAD_CONST               7 ('ether')
+            642 CALL                     2
+            650 FORMAT_VALUE             0
+            652 LOAD_CONST               8 (' ETH')
+            654 BUILD_STRING             3
+            656 CALL                     1
+            664 POP_TOP
+
+ 54         666 LOAD_FAST                4 (balance_wei)
+            668 LOAD_CONST               9 (0)
+            670 COMPARE_OP              40 (==)
+            674 POP_JUMP_IF_FALSE       11 (to 698)
+
+ 55         676 LOAD_GLOBAL             13 (NULL + print)
+            686 LOAD_CONST              10 ('[!] Warning: Account has 0 ETH. Deployment will likely fail. Get some testnet ETH from a faucet (e.g., sepoliafaucet.com)!')
+            688 CALL                     1
+            696 POP_TOP
+
+ 57     >>  698 LOAD_FAST                2 (w3)
+            700 LOAD_ATTR               14 (eth)
+            720 LOAD_ATTR               35 (NULL|self + contract)
+            740 LOAD_FAST                1 (contract_abi)
+            742 LOAD_FAST                0 (contract_bytes)
+            744 KW_NAMES                11 (('abi', 'bytecode'))
+            746 CALL                     2
+            754 STORE_FAST               5 (Contract)
+
+ 59         756 LOAD_FAST                5 (Contract)
+            758 LOAD_ATTR               37 (NULL|self + constructor)
+            778 CALL                     0
+            786 LOAD_ATTR               39 (NULL|self + estimate_gas)
+            806 CALL                     0
+            814 STORE_FAST               6 (gas_estimate)
+
+ 60         816 LOAD_GLOBAL             13 (NULL + print)
+            826 LOAD_CONST              12 ('[+] Estimated gas for deployment: ')
+            828 LOAD_FAST                6 (gas_estimate)
+            830 FORMAT_VALUE             0
+            832 BUILD_STRING             2
+            834 CALL                     1
+            842 POP_TOP
+
+ 62         844 LOAD_FAST                2 (w3)
+            846 LOAD_ATTR               14 (eth)
+            866 LOAD_ATTR               40 (gas_price)
+            886 STORE_FAST               7 (gas_price)
+
+ 63         888 LOAD_GLOBAL             13 (NULL + print)
+            898 LOAD_CONST              13 ('[+] Current gas price: ')
+            900 LOAD_FAST                2 (w3)
+            902 LOAD_ATTR               33 (NULL|self + from_wei)
+            922 LOAD_FAST                7 (gas_price)
+            924 LOAD_CONST              14 ('gwei')
+            926 CALL                     2
+            934 FORMAT_VALUE             0
+            936 LOAD_CONST              15 (' Gwei')
+            938 BUILD_STRING             3
+            940 CALL                     1
+            948 POP_TOP
+
+ 65         950 LOAD_FAST                5 (Contract)
+            952 LOAD_ATTR               37 (NULL|self + constructor)
+            972 CALL                     0
+            980 LOAD_ATTR               43 (NULL|self + build_transaction)
+
+ 66        1000 LOAD_FAST                3 (account)
+           1002 LOAD_ATTR               26 (address)
+
+ 67        1022 LOAD_FAST                2 (w3)
+           1024 LOAD_ATTR               14 (eth)
+           1044 LOAD_ATTR               45 (NULL|self + get_transaction_count)
+           1064 LOAD_FAST                3 (account)
+           1066 LOAD_ATTR               26 (address)
+           1086 CALL                     1
+
+ 68        1094 LOAD_FAST                6 (gas_estimate)
+           1096 LOAD_CONST              16 (200000)
+           1098 BINARY_OP                0 (+)
+
+ 69        1102 LOAD_FAST                7 (gas_price)
+
+ 65        1104 LOAD_CONST              17 (('from', 'nonce', 'gas', 'gasPrice'))
+           1106 BUILD_CONST_KEY_MAP      4
+           1108 CALL                     1
+           1116 STORE_FAST               8 (transaction)
+
+ 72        1118 LOAD_FAST                2 (w3)
+           1120 LOAD_ATTR               14 (eth)
+           1140 LOAD_ATTR               46 (account)
+           1160 LOAD_ATTR               49 (NULL|self + sign_transaction)
+           1180 LOAD_FAST                8 (transaction)
+           1182 LOAD_GLOBAL              4 (SmartContracts)
+           1192 LOAD_ATTR               18 (private_key)
+           1212 KW_NAMES                18 (('private_key',))
+           1214 CALL                     2
+           1222 STORE_FAST               9 (signed_txn)
+
+ 74        1224 LOAD_GLOBAL             13 (NULL + print)
+           1234 LOAD_CONST              19 ('[+]  Deploying contract...')
+           1236 CALL                     1
+           1244 POP_TOP
+
+ 75        1246 LOAD_FAST                2 (w3)
+           1248 LOAD_ATTR               14 (eth)
+           1268 LOAD_ATTR               51 (NULL|self + send_raw_transaction)
+           1288 LOAD_FAST                9 (signed_txn)
+           1290 LOAD_ATTR               52 (raw_transaction)
+           1310 CALL                     1
+           1318 STORE_FAST              10 (tx_hash)
+
+ 76        1320 LOAD_GLOBAL             13 (NULL + print)
+           1330 LOAD_CONST              20 ('[+] Deployment transaction sent. Hash: ')
+           1332 LOAD_FAST               10 (tx_hash)
+           1334 LOAD_ATTR               55 (NULL|self + hex)
+           1354 CALL                     0
+           1362 FORMAT_VALUE             0
+           1364 BUILD_STRING             2
+           1366 CALL                     1
+           1374 POP_TOP
+
+ 77        1376 LOAD_GLOBAL             13 (NULL + print)
+           1386 LOAD_CONST              21 ('[+] Waiting for transaction to be mined...')
+           1388 CALL                     1
+           1396 POP_TOP
+
+ 79        1398 LOAD_FAST                2 (w3)
+           1400 LOAD_ATTR               14 (eth)
+           1420 LOAD_ATTR               57 (NULL|self + wait_for_transaction_receipt)
+           1440 LOAD_FAST               10 (tx_hash)
+           1442 LOAD_CONST              22 (300)
+           1444 KW_NAMES                23 (('timeout',))
+           1446 CALL                     2
+           1454 STORE_FAST              11 (tx_receipt)
+
+ 80        1456 LOAD_GLOBAL             13 (NULL + print)
+           1466 LOAD_CONST              24 ('[+] Transaction receipt: ')
+           1468 LOAD_FAST               11 (tx_receipt)
+           1470 FORMAT_VALUE             0
+           1472 BUILD_STRING             2
+           1474 CALL                     1
+           1482 POP_TOP
+
+ 82        1484 LOAD_FAST               11 (tx_receipt)
+           1486 LOAD_ATTR               58 (status)
+           1506 LOAD_CONST               9 (0)
+           1508 COMPARE_OP              40 (==)
+           1512 POP_JUMP_IF_FALSE       12 (to 1538)
+
+ 83        1514 LOAD_GLOBAL             13 (NULL + print)
+           1524 LOAD_CONST              25 ('[!] Transaction failed (status 0). It was reverted.')
+           1526 CALL                     1
+           1534 POP_TOP
+
+ 84        1536 RETURN_CONST             0 (None)
+
+ 86     >> 1538 LOAD_FAST               11 (tx_receipt)
+           1540 LOAD_ATTR               60 (contractAddress)
+           1560 STORE_FAST              12 (contract_address)
+
+ 87        1562 LOAD_GLOBAL             13 (NULL + print)
+           1572 LOAD_CONST              26 ('[+] Contract deployed at address: ')
+           1574 LOAD_FAST               12 (contract_address)
+           1576 FORMAT_VALUE             0
+           1578 BUILD_STRING             2
+           1580 CALL                     1
+           1588 POP_TOP
+
+ 89        1590 LOAD_FAST                2 (w3)
+           1592 LOAD_ATTR               14 (eth)
+           1612 LOAD_ATTR               35 (NULL|self + contract)
+           1632 LOAD_FAST               12 (contract_address)
+           1634 LOAD_FAST                1 (contract_abi)
+           1636 KW_NAMES                27 (('address', 'abi'))
+           1638 CALL                     2
+           1646 STORE_FAST              13 (deployed_contract)
+
+ 91        1648 LOAD_FAST               13 (deployed_contract)
+           1650 RETURN_VALUE
+        >> 1652 PUSH_EXC_INFO
+
+ 93        1654 LOAD_GLOBAL             10 (ConnectionError)
+           1664 CHECK_EXC_MATCH
+           1666 POP_JUMP_IF_FALSE       35 (to 1738)
+           1668 STORE_FAST              14 (e)
+
+ 94        1670 LOAD_GLOBAL             13 (NULL + print)
+           1680 LOAD_CONST              28 ('[!] Connection error: ')
+           1682 LOAD_FAST               14 (e)
+           1684 FORMAT_VALUE             0
+           1686 BUILD_STRING             2
+           1688 CALL                     1
+           1696 POP_TOP
+
+ 95        1698 LOAD_GLOBAL             13 (NULL + print)
+           1708 LOAD_CONST              29 ('Please check your RPC_URL and network connection.')
+           1710 CALL                     1
+           1718 POP_TOP
+           1720 POP_EXCEPT
+           1722 LOAD_CONST               0 (None)
+           1724 STORE_FAST              14 (e)
+           1726 DELETE_FAST             14 (e)
+           1728 RETURN_CONST             0 (None)
+        >> 1730 LOAD_CONST               0 (None)
+           1732 STORE_FAST              14 (e)
+           1734 DELETE_FAST             14 (e)
+           1736 RERAISE                  1
+
+ 96     >> 1738 LOAD_GLOBAL             20 (ValueError)
+           1748 CHECK_EXC_MATCH
+           1750 POP_JUMP_IF_FALSE       24 (to 1800)
+           1752 STORE_FAST              14 (e)
+
+ 97        1754 LOAD_GLOBAL             13 (NULL + print)
+           1764 LOAD_CONST              30 ('[!] Configuration error: ')
+           1766 LOAD_FAST               14 (e)
+           1768 FORMAT_VALUE             0
+           1770 BUILD_STRING             2
+           1772 CALL                     1
+           1780 POP_TOP
+           1782 POP_EXCEPT
+           1784 LOAD_CONST               0 (None)
+           1786 STORE_FAST              14 (e)
+           1788 DELETE_FAST             14 (e)
+           1790 RETURN_CONST             0 (None)
+        >> 1792 LOAD_CONST               0 (None)
+           1794 STORE_FAST              14 (e)
+           1796 DELETE_FAST             14 (e)
+           1798 RERAISE                  1
+
+ 98     >> 1800 LOAD_GLOBAL             62 (Exception)
+           1810 CHECK_EXC_MATCH
+           1812 POP_JUMP_IF_FALSE       24 (to 1862)
+           1814 STORE_FAST              14 (e)
+
+ 99        1816 LOAD_GLOBAL             13 (NULL + print)
+           1826 LOAD_CONST              31 ('[!] An unexpected error occurred: ')
+           1828 LOAD_FAST               14 (e)
+           1830 FORMAT_VALUE             0
+           1832 BUILD_STRING             2
+           1834 CALL                     1
+           1842 POP_TOP
+           1844 POP_EXCEPT
+           1846 LOAD_CONST               0 (None)
+           1848 STORE_FAST              14 (e)
+           1850 DELETE_FAST             14 (e)
+           1852 RETURN_CONST             0 (None)
+        >> 1854 LOAD_CONST               0 (None)
+           1856 STORE_FAST              14 (e)
+           1858 DELETE_FAST             14 (e)
+           1860 RERAISE                  1
+
+ 98     >> 1862 RERAISE                  0
+        >> 1864 COPY                     3
+           1866 POP_EXCEPT
+           1868 RERAISE                  1
+ExceptionTable:
+  4 to 1534 -> 1652 [0]
+  1538 to 1648 -> 1652 [0]
+  1652 to 1668 -> 1864 [1] lasti
+  1670 to 1718 -> 1730 [1] lasti
+  1730 to 1752 -> 1864 [1] lasti
+  1754 to 1780 -> 1792 [1] lasti
+  1792 to 1814 -> 1864 [1] lasti
+  1816 to 1842 -> 1854 [1] lasti
+  1854 to 1862 -> 1864 [1] lasti
+
+Disassembly of <code object LCGOracle at 0x7f36a1b09a70, file "challenge_to_compile.py", line 102>:
+102           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('LCGOracle')
+              8 STORE_NAME               2 (__qualname__)
+
+103          10 LOAD_CONST               1 (<code object __init__ at 0x7f36a1b3cbb0, file "challenge_to_compile.py", line 103>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+114          16 LOAD_CONST               2 (<code object deploy_lcg_contract at 0x7f36a204a040, file "challenge_to_compile.py", line 114>)
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               4 (deploy_lcg_contract)
+
+117          22 LOAD_CONST               3 (<code object get_next at 0x55763e367a50, file "challenge_to_compile.py", line 117>)
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               5 (get_next)
+             28 RETURN_CONST             4 (None)
+
+Disassembly of <code object __init__ at 0x7f36a1b3cbb0, file "challenge_to_compile.py", line 103>:
+103           0 RESUME                   0
+
+104           2 LOAD_FAST                1 (multiplier)
+              4 LOAD_FAST                0 (self)
+              6 STORE_ATTR               0 (multiplier)
+
+105          16 LOAD_FAST                2 (increment)
+             18 LOAD_FAST                0 (self)
+             20 STORE_ATTR               1 (increment)
+
+106          30 LOAD_FAST                3 (modulus)
+             32 LOAD_FAST                0 (self)
+             34 STORE_ATTR               2 (modulus)
+
+107          44 LOAD_FAST                4 (initial_seed)
+             46 LOAD_FAST                0 (self)
+             48 STORE_ATTR               3 (state)
+
+109          58 LOAD_CONST               1 ('6080604052348015600e575f5ffd5b506102e28061001c5f395ff3fe608060405234801561000f575f5ffd5b5060043610610029575f3560e01c8063115218341461002d575b5f5ffd5b6100476004803603810190610042919061010c565b61005d565b6040516100549190610192565b60405180910390f35b5f5f848061006e5761006d6101ab565b5b86868061007e5761007d6101ab565b5b8987090890505f5f8411610092575f610095565b60015b60ff16905081816100a69190610205565b858260016100b49190610246565b6100be9190610205565b6100c89190610279565b9250505095945050505050565b5f5ffd5b5f819050919050565b6100eb816100d9565b81146100f5575f5ffd5b50565b5f81359050610106816100e2565b92915050565b5f5f5f5f5f60a08688031215610125576101246100d5565b5b5f610132888289016100f8565b9550506020610143888289016100f8565b9450506040610154888289016100f8565b9350506060610165888289016100f8565b9250506080610176888289016100f8565b9150509295509295909350565b61018c816100d9565b82525050565b5f6020820190506101a55f830184610183565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f61020f826100d9565b915061021a836100d9565b9250828202610228816100d9565b9150828204841483151761023f5761023e6101d8565b5b5092915050565b5f610250826100d9565b915061025b836100d9565b9250828203905081811115610273576102726101d8565b5b92915050565b5f610283826100d9565b915061028e836100d9565b92508282019050808211156102a6576102a56101d8565b5b9291505056fea2646970667358221220c7e885c1633ad951a2d8168f80d36858af279d8b5fe2e19cf79eac15ecb9fdd364736f6c634300081e0033')
+             60 LOAD_FAST                0 (self)
+             62 STORE_ATTR               4 (contract_bytes)
+
+110          72 LOAD_CONST               2 ('uint256')
+             74 LOAD_CONST               3 ('LCG_MULTIPLIER')
+             76 LOAD_CONST               2 ('uint256')
+             78 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             80 BUILD_CONST_KEY_MAP      3
+             82 LOAD_CONST               2 ('uint256')
+             84 LOAD_CONST               5 ('LCG_INCREMENT')
+             86 LOAD_CONST               2 ('uint256')
+             88 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             90 BUILD_CONST_KEY_MAP      3
+             92 LOAD_CONST               2 ('uint256')
+             94 LOAD_CONST               6 ('LCG_MODULUS')
+             96 LOAD_CONST               2 ('uint256')
+             98 LOAD_CONST               4 (('internalType', 'name', 'type'))
+            100 BUILD_CONST_KEY_MAP      3
+            102 LOAD_CONST               2 ('uint256')
+            104 LOAD_CONST               7 ('_currentState')
+            106 LOAD_CONST               2 ('uint256')
+            108 LOAD_CONST               4 (('internalType', 'name', 'type'))
+            110 BUILD_CONST_KEY_MAP      3
+            112 LOAD_CONST               2 ('uint256')
+            114 LOAD_CONST               8 ('_counter')
+            116 LOAD_CONST               2 ('uint256')
+            118 LOAD_CONST               4 (('internalType', 'name', 'type'))
+            120 BUILD_CONST_KEY_MAP      3
+            122 BUILD_LIST               5
+            124 LOAD_CONST               9 ('nextVal')
+            126 LOAD_CONST               2 ('uint256')
+            128 LOAD_CONST              10 ('')
+            130 LOAD_CONST               2 ('uint256')
+            132 LOAD_CONST               4 (('internalType', 'name', 'type'))
+            134 BUILD_CONST_KEY_MAP      3
+            136 BUILD_LIST               1
+            138 LOAD_CONST              11 ('pure')
+            140 LOAD_CONST              12 ('function')
+            142 LOAD_CONST              13 (('inputs', 'name', 'outputs', 'stateMutability', 'type'))
+            144 BUILD_CONST_KEY_MAP      5
+            146 BUILD_LIST               1
+            148 LOAD_FAST                0 (self)
+            150 STORE_ATTR               5 (contract_abi)
+
+112         160 LOAD_CONST               0 (None)
+            162 LOAD_FAST                0 (self)
+            164 STORE_ATTR               6 (deployed_contract)
+            174 RETURN_CONST             0 (None)
+
+Disassembly of <code object deploy_lcg_contract at 0x7f36a204a040, file "challenge_to_compile.py", line 114>:
+114           0 RESUME                   0
+
+115           2 LOAD_GLOBAL              0 (SmartContracts)
+             12 LOAD_ATTR                3 (NULL|self + deploy_contract)
+             32 LOAD_FAST                0 (self)
+             34 LOAD_ATTR                4 (contract_bytes)
+             54 LOAD_FAST                0 (self)
+             56 LOAD_ATTR                6 (contract_abi)
+             76 CALL                     2
+             84 LOAD_FAST                0 (self)
+             86 STORE_ATTR               4 (deployed_contract)
+             96 RETURN_CONST             0 (None)
+
+Disassembly of <code object get_next at 0x55763e367a50, file "challenge_to_compile.py", line 117>:
+117           0 RESUME                   0
+
+118           2 LOAD_GLOBAL              1 (NULL + print)
+             12 LOAD_CONST               1 ('\n[+] Calling nextVal() with _currentState=')
+             14 LOAD_FAST                0 (self)
+             16 LOAD_ATTR                2 (state)
+             36 FORMAT_VALUE             0
+             38 BUILD_STRING             2
+             40 CALL                     1
+             48 POP_TOP
+
+120          50 LOAD_FAST                0 (self)
+             52 LOAD_ATTR                4 (deployed_contract)
+             72 LOAD_ATTR                6 (functions)
+             92 LOAD_ATTR                9 (NULL|self + nextVal)
+
+121         112 LOAD_FAST                0 (self)
+            114 LOAD_ATTR               10 (multiplier)
+            134 LOAD_FAST                0 (self)
+            136 LOAD_ATTR               12 (increment)
+            156 LOAD_FAST                0 (self)
+            158 LOAD_ATTR               14 (modulus)
+
+122         178 LOAD_FAST                0 (self)
+            180 LOAD_ATTR                2 (state)
+            200 LOAD_FAST                1 (counter)
+
+120         202 CALL                     5
+
+123         210 LOAD_ATTR               17 (NULL|self + call)
+            230 CALL                     0
+
+120         238 LOAD_FAST                0 (self)
+            240 STORE_ATTR               1 (state)
+
+125         250 LOAD_GLOBAL              1 (NULL + print)
+            260 LOAD_CONST               2 ('  _counter = ')
+            262 LOAD_FAST                1 (counter)
+            264 FORMAT_VALUE             0
+            266 LOAD_CONST               3 (': Result = ')
+            268 LOAD_FAST                0 (self)
+            270 LOAD_ATTR                2 (state)
+            290 FORMAT_VALUE             0
+            292 BUILD_STRING             4
+            294 CALL                     1
+            302 POP_TOP
+
+127         304 LOAD_FAST                0 (self)
+            306 LOAD_ATTR                2 (state)
+            326 RETURN_VALUE
+
+Disassembly of <code object TripleXOROracle at 0x7f36a1b0aa30, file "challenge_to_compile.py", line 130>:
+130           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('TripleXOROracle')
+              8 STORE_NAME               2 (__qualname__)
+
+131          10 LOAD_CONST               1 (<code object __init__ at 0x7f36a20497f0, file "challenge_to_compile.py", line 131>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+137          16 LOAD_CONST               2 (<code object deploy_triple_xor_contract at 0x7f36a204a2a0, file "challenge_to_compile.py", line 137>)
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               4 (deploy_triple_xor_contract)
+
+140          22 LOAD_CONST               3 (<code object encrypt at 0x7f36a1b0e740, file "challenge_to_compile.py", line 140>)
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               5 (encrypt)
+             28 RETURN_CONST             4 (None)
+
+Disassembly of <code object __init__ at 0x7f36a20497f0, file "challenge_to_compile.py", line 131>:
+131           0 RESUME                   0
+
+132           2 LOAD_CONST               1 ('61030f61004d600b8282823980515f1a6073146041577f4e487b71000000000000000000000000000000000000000000000000000000005f525f60045260245ffd5b305f52607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610610034575f3560e01c80636230075614610038575b5f5ffd5b610052600480360381019061004d919061023c565b610068565b60405161005f91906102c0565b60405180910390f35b5f5f845f1b90505f845f1b90505f61007f85610092565b9050818382181893505050509392505050565b5f5f8290506020815111156100ae5780515f525f5191506100b6565b602081015191505b50919050565b5f604051905090565b5f5ffd5b5f5ffd5b5f819050919050565b6100df816100cd565b81146100e9575f5ffd5b50565b5f813590506100fa816100d6565b92915050565b5f5ffd5b5f5ffd5b5f601f19601f8301169050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffd5b61014e82610108565b810181811067ffffffffffffffff8211171561016d5761016c610118565b5b80604052505050565b5f61017f6100bc565b905061018b8282610145565b919050565b5f67ffffffffffffffff8211156101aa576101a9610118565b5b6101b382610108565b9050602081019050919050565b828183375f83830152505050565b5f6101e06101db84610190565b610176565b9050828152602081018484840111156101fc576101fb610104565b5b6102078482856101c0565b509392505050565b5f82601f83011261022357610222610100565b5b81356102338482602086016101ce565b91505092915050565b5f5f5f60608486031215610253576102526100c5565b5b5f610260868287016100ec565b9350506020610271868287016100ec565b925050604084013567ffffffffffffffff811115610292576102916100c9565b5b61029e8682870161020f565b9150509250925092565b5f819050919050565b6102ba816102a8565b82525050565b5f6020820190506102d35f8301846102b1565b9291505056fea26469706673582212203fc7e6cc4bf6a86689f458c2d70c565e7c776de95b401008e58ca499ace9ecb864736f6c634300081e0033')
+              4 LOAD_FAST                0 (self)
+              6 STORE_ATTR               0 (contract_bytes)
+
+133          16 LOAD_CONST               2 ('uint256')
+             18 LOAD_CONST               3 ('_primeFromLcg')
+             20 LOAD_CONST               2 ('uint256')
+             22 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             24 BUILD_CONST_KEY_MAP      3
+             26 LOAD_CONST               2 ('uint256')
+             28 LOAD_CONST               5 ('_conversationTime')
+             30 LOAD_CONST               2 ('uint256')
+             32 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             34 BUILD_CONST_KEY_MAP      3
+             36 LOAD_CONST               6 ('string')
+             38 LOAD_CONST               7 ('_plaintext')
+             40 LOAD_CONST               6 ('string')
+             42 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             44 BUILD_CONST_KEY_MAP      3
+             46 BUILD_LIST               3
+             48 LOAD_CONST               8 ('encrypt')
+             50 LOAD_CONST               9 ('bytes32')
+             52 LOAD_CONST              10 ('')
+             54 LOAD_CONST               9 ('bytes32')
+             56 LOAD_CONST               4 (('internalType', 'name', 'type'))
+             58 BUILD_CONST_KEY_MAP      3
+             60 BUILD_LIST               1
+             62 LOAD_CONST              11 ('pure')
+             64 LOAD_CONST              12 ('function')
+             66 LOAD_CONST              13 (('inputs', 'name', 'outputs', 'stateMutability', 'type'))
+             68 BUILD_CONST_KEY_MAP      5
+             70 BUILD_LIST               1
+             72 LOAD_FAST                0 (self)
+             74 STORE_ATTR               1 (contract_abi)
+
+135          84 LOAD_CONST               0 (None)
+             86 LOAD_FAST                0 (self)
+             88 STORE_ATTR               2 (deployed_contract)
+             98 RETURN_CONST             0 (None)
+
+Disassembly of <code object deploy_triple_xor_contract at 0x7f36a204a2a0, file "challenge_to_compile.py", line 137>:
+137           0 RESUME                   0
+
+138           2 LOAD_GLOBAL              0 (SmartContracts)
+             12 LOAD_ATTR                3 (NULL|self + deploy_contract)
+             32 LOAD_FAST                0 (self)
+             34 LOAD_ATTR                4 (contract_bytes)
+             54 LOAD_FAST                0 (self)
+             56 LOAD_ATTR                6 (contract_abi)
+             76 CALL                     2
+             84 LOAD_FAST                0 (self)
+             86 STORE_ATTR               4 (deployed_contract)
+             96 RETURN_CONST             0 (None)
+
+Disassembly of <code object encrypt at 0x7f36a1b0e740, file "challenge_to_compile.py", line 140>:
+140           0 RESUME                   0
+
+141           2 LOAD_GLOBAL              1 (NULL + print)
+             12 LOAD_CONST               1 ('\n[+] Calling encrypt() with prime_from_lcg=')
+             14 LOAD_FAST                1 (prime_from_lcg)
+             16 FORMAT_VALUE             0
+             18 LOAD_CONST               2 (', time=')
+             20 LOAD_FAST                2 (conversation_time)
+             22 FORMAT_VALUE             0
+             24 LOAD_CONST               3 (', plaintext=')
+             26 LOAD_FAST                3 (plaintext_bytes)
+             28 FORMAT_VALUE             0
+             30 BUILD_STRING             6
+             32 CALL                     1
+             40 POP_TOP
+
+143          42 LOAD_FAST                0 (self)
+             44 LOAD_ATTR                2 (deployed_contract)
+             64 LOAD_ATTR                4 (functions)
+             84 LOAD_ATTR                7 (NULL|self + encrypt)
+
+144         104 LOAD_FAST                1 (prime_from_lcg)
+            106 LOAD_FAST                2 (conversation_time)
+            108 LOAD_FAST                3 (plaintext_bytes)
+
+143         110 CALL                     3
+
+145         118 LOAD_ATTR                9 (NULL|self + call)
+            138 CALL                     0
+
+143         146 STORE_FAST               4 (ciphertext)
+
+147         148 LOAD_GLOBAL              1 (NULL + print)
+            158 LOAD_CONST               4 ('  _ciphertext = ')
+            160 LOAD_FAST                4 (ciphertext)
+            162 LOAD_ATTR               11 (NULL|self + hex)
+            182 CALL                     0
+            190 FORMAT_VALUE             0
+            192 BUILD_STRING             2
+            194 CALL                     1
+            202 POP_TOP
+
+149         204 LOAD_FAST                4 (ciphertext)
+            206 RETURN_VALUE
+
+Disassembly of <code object ChatLogic at 0x7f36a1b55a30, file "challenge_to_compile.py", line 151>:
+151           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('ChatLogic')
+              8 STORE_NAME               2 (__qualname__)
+
+152          10 LOAD_CONST               1 (<code object __init__ at 0x7f36a1fc10b0, file "challenge_to_compile.py", line 152>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+165          16 LOAD_CONST               2 (<code object _get_system_artifact_hash at 0x7f36a1fbd210, file "challenge_to_compile.py", line 165>)
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               4 (_get_system_artifact_hash)
+
+172          22 LOAD_CONST               3 (<code object _generate_primes_from_hash at 0x55763e342d40, file "challenge_to_compile.py", line 172>)
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               5 (_generate_primes_from_hash)
+
+196          28 LOAD_CONST               4 (<code object _initialize_crypto_backend at 0x55763e2f2b90, file "challenge_to_compile.py", line 196>)
+             30 MAKE_FUNCTION            0
+             32 STORE_NAME               6 (_initialize_crypto_backend)
+
+210          34 LOAD_CONST               5 (<code object generate_rsa_key_from_lcg at 0x55763e375790, file "challenge_to_compile.py", line 210>)
+             36 MAKE_FUNCTION            0
+             38 STORE_NAME               7 (generate_rsa_key_from_lcg)
+
+267          40 LOAD_CONST               6 (<code object process_message at 0x55763e376030, file "challenge_to_compile.py", line 267>)
+             42 MAKE_FUNCTION            0
+             44 STORE_NAME               8 (process_message)
+
+298          46 LOAD_CONST               7 (<code object save_chat_log at 0x7f36a1fbd550, file "challenge_to_compile.py", line 298>)
+             48 MAKE_FUNCTION            0
+             50 STORE_NAME               9 (save_chat_log)
+             52 RETURN_CONST             8 (None)
+
+Disassembly of <code object __init__ at 0x7f36a1fc10b0, file "challenge_to_compile.py", line 152>:
+152           0 RESUME                   0
+
+153           2 LOAD_CONST               0 (None)
+              4 LOAD_FAST                0 (self)
+              6 STORE_ATTR               0 (lcg_oracle)
+
+154          16 LOAD_CONST               0 (None)
+             18 LOAD_FAST                0 (self)
+             20 STORE_ATTR               1 (xor_oracle)
+
+155          30 LOAD_CONST               0 (None)
+             32 LOAD_FAST                0 (self)
+             34 STORE_ATTR               2 (rsa_key)
+
+156          44 LOAD_CONST               0 (None)
+             46 LOAD_FAST                0 (self)
+             48 STORE_ATTR               3 (seed_hash)
+
+158          58 LOAD_CONST               1 (False)
+             60 LOAD_FAST                0 (self)
+             62 STORE_ATTR               4 (super_safe_mode)
+
+159          72 LOAD_CONST               2 (0)
+             74 LOAD_FAST                0 (self)
+             76 STORE_ATTR               5 (message_count)
+
+160          86 LOAD_CONST               2 (0)
+             88 LOAD_FAST                0 (self)
+             90 STORE_ATTR               6 (conversation_start_time)
+
+161         100 BUILD_LIST               0
+            102 LOAD_FAST                0 (self)
+            104 STORE_ATTR               7 (chat_history)
+
+163         114 LOAD_FAST                0 (self)
+            116 LOAD_ATTR               17 (NULL|self + _initialize_crypto_backend)
+            136 CALL                     0
+            144 POP_TOP
+            146 RETURN_CONST             0 (None)
+
+Disassembly of <code object _get_system_artifact_hash at 0x7f36a1fbd210, file "challenge_to_compile.py", line 165>:
+165           0 RESUME                   0
+
+166           2 LOAD_GLOBAL              1 (NULL + platform)
+             12 LOAD_ATTR                2 (node)
+             32 CALL                     0
+             40 LOAD_ATTR                5 (NULL|self + encode)
+             60 LOAD_CONST               1 ('utf-8')
+             62 CALL                     1
+             70 STORE_FAST               1 (artifact)
+
+167          72 LOAD_GLOBAL              7 (NULL + hashlib)
+             82 LOAD_ATTR                8 (sha256)
+            102 LOAD_FAST                1 (artifact)
+            104 CALL                     1
+            112 LOAD_ATTR               11 (NULL|self + digest)
+            132 CALL                     0
+            140 STORE_FAST               2 (hash_val)
+
+168         142 LOAD_GLOBAL             12 (int)
+            152 LOAD_ATTR               15 (NULL|self + from_bytes)
+            172 LOAD_FAST                2 (hash_val)
+            174 LOAD_CONST               2 ('little')
+            176 CALL                     2
+            184 STORE_FAST               3 (seed_hash)
+
+169         186 LOAD_GLOBAL             17 (NULL + print)
+            196 LOAD_CONST               3 ('[SETUP]  - Generated Seed ')
+            198 LOAD_FAST                3 (seed_hash)
+            200 FORMAT_VALUE             0
+            202 LOAD_CONST               4 ('...')
+            204 BUILD_STRING             3
+            206 CALL                     1
+            214 POP_TOP
+
+170         216 LOAD_FAST                3 (seed_hash)
+            218 RETURN_VALUE
+
+Disassembly of <code object _generate_primes_from_hash at 0x55763e342d40, file "challenge_to_compile.py", line 172>:
+172           0 RESUME                   0
+
+173           2 BUILD_LIST               0
+              4 STORE_FAST               2 (primes)
+
+174           6 LOAD_FAST                1 (seed_hash)
+              8 LOAD_ATTR                1 (NULL|self + bit_length)
+             28 CALL                     0
+             36 LOAD_CONST               1 (7)
+             38 BINARY_OP                0 (+)
+             42 LOAD_CONST               2 (8)
+             44 BINARY_OP                2 (//)
+             48 STORE_FAST               3 (current_hash_byte_length)
+
+175          50 LOAD_FAST                1 (seed_hash)
+             52 LOAD_ATTR                3 (NULL|self + to_bytes)
+             72 LOAD_FAST                3 (current_hash_byte_length)
+             74 LOAD_CONST               3 ('little')
+             76 CALL                     2
+             84 STORE_FAST               4 (current_hash)
+
+176          86 LOAD_GLOBAL              5 (NULL + print)
+             96 LOAD_CONST               4 ('[SETUP] Generating LCG parameters from system artifact...')
+             98 CALL                     1
+            106 POP_TOP
+
+178         108 LOAD_CONST               5 (10000)
+            110 STORE_FAST               5 (iteration_limit)
+
+179         112 LOAD_CONST               6 (0)
+            114 STORE_FAST               6 (iterations)
+
+180         116 LOAD_GLOBAL              7 (NULL + len)
+            126 LOAD_FAST                2 (primes)
+            128 CALL                     1
+            136 LOAD_CONST               7 (3)
+            138 COMPARE_OP               2 (<)
+            142 POP_JUMP_IF_FALSE      173 (to 490)
+            144 LOAD_FAST                6 (iterations)
+            146 LOAD_FAST                5 (iteration_limit)
+            148 COMPARE_OP               2 (<)
+            152 POP_JUMP_IF_FALSE      168 (to 490)
+
+181     >>  154 LOAD_GLOBAL              9 (NULL + hashlib)
+            164 LOAD_ATTR               10 (sha256)
+            184 LOAD_FAST                4 (current_hash)
+            186 CALL                     1
+            194 LOAD_ATTR               13 (NULL|self + digest)
+            214 CALL                     0
+            222 STORE_FAST               4 (current_hash)
+
+182         224 LOAD_GLOBAL             14 (int)
+            234 LOAD_ATTR               17 (NULL|self + from_bytes)
+            254 LOAD_FAST                4 (current_hash)
+            256 LOAD_CONST               3 ('little')
+            258 CALL                     2
+            266 STORE_FAST               7 (candidate)
+
+183         268 LOAD_FAST                6 (iterations)
+            270 LOAD_CONST               8 (1)
+            272 BINARY_OP               13 (+=)
+            276 STORE_FAST               6 (iterations)
+
+184         278 LOAD_FAST                7 (candidate)
+            280 LOAD_ATTR                1 (NULL|self + bit_length)
+            300 CALL                     0
+            308 LOAD_CONST               9 (256)
+            310 COMPARE_OP              40 (==)
+            314 POP_JUMP_IF_FALSE       67 (to 450)
+            316 LOAD_GLOBAL             19 (NULL + isPrime)
+            326 LOAD_FAST                7 (candidate)
+            328 CALL                     1
+            336 POP_JUMP_IF_FALSE       56 (to 450)
+
+185         338 LOAD_FAST                2 (primes)
+            340 LOAD_ATTR               21 (NULL|self + append)
+            360 LOAD_FAST                7 (candidate)
+            362 CALL                     1
+            370 POP_TOP
+
+186         372 LOAD_GLOBAL              5 (NULL + print)
+            382 LOAD_CONST              10 ('[SETUP]  - Found parameter ')
+            384 LOAD_GLOBAL              7 (NULL + len)
+            394 LOAD_FAST                2 (primes)
+            396 CALL                     1
+            404 FORMAT_VALUE             0
+            406 LOAD_CONST              11 (': ')
+            408 LOAD_GLOBAL             23 (NULL + str)
+            418 LOAD_FAST                7 (candidate)
+            420 CALL                     1
+            428 LOAD_CONST               0 (None)
+            430 LOAD_CONST              12 (20)
+            432 BINARY_SLICE
+            434 FORMAT_VALUE             0
+            436 LOAD_CONST              13 ('...')
+            438 BUILD_STRING             5
+            440 CALL                     1
+            448 POP_TOP
+
+180     >>  450 LOAD_GLOBAL              7 (NULL + len)
+            460 LOAD_FAST                2 (primes)
+            462 CALL                     1
+            470 LOAD_CONST               7 (3)
+            472 COMPARE_OP               2 (<)
+            476 POP_JUMP_IF_FALSE        6 (to 490)
+            478 LOAD_FAST                6 (iterations)
+            480 LOAD_FAST                5 (iteration_limit)
+            482 COMPARE_OP               2 (<)
+            486 POP_JUMP_IF_FALSE        1 (to 490)
+            488 JUMP_BACKWARD          168 (to 154)
+
+188     >>  490 LOAD_GLOBAL              7 (NULL + len)
+            500 LOAD_FAST                2 (primes)
+            502 CALL                     1
+            510 LOAD_CONST               7 (3)
+            512 COMPARE_OP               2 (<)
+            516 POP_JUMP_IF_FALSE       35 (to 588)
+
+189         518 LOAD_CONST              14 ('[!] Error: Could not find 3 primes within iteration limit.')
+            520 STORE_FAST               8 (error_msg)
+
+190         522 LOAD_GLOBAL              5 (NULL + print)
+            532 LOAD_CONST              15 ('Current Primes: ')
+            534 LOAD_FAST                2 (primes)
+            536 CALL                     2
+            544 POP_TOP
+
+191         546 LOAD_GLOBAL              5 (NULL + print)
+            556 LOAD_FAST                8 (error_msg)
+            558 CALL                     1
+            566 POP_TOP
+
+192         568 LOAD_GLOBAL             25 (NULL + exit)
+            578 CALL                     0
+            586 POP_TOP
+
+194     >>  588 LOAD_FAST                2 (primes)
+            590 LOAD_CONST               6 (0)
+            592 BINARY_SUBSCR
+            596 LOAD_FAST                2 (primes)
+            598 LOAD_CONST               8 (1)
+            600 BINARY_SUBSCR
+            604 LOAD_FAST                2 (primes)
+            606 LOAD_CONST              16 (2)
+            608 BINARY_SUBSCR
+            612 BUILD_TUPLE              3
+            614 RETURN_VALUE
+
+Disassembly of <code object _initialize_crypto_backend at 0x55763e2f2b90, file "challenge_to_compile.py", line 196>:
+196           0 RESUME                   0
+
+197           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                1 (NULL|self + _get_system_artifact_hash)
+             24 CALL                     0
+             32 LOAD_FAST                0 (self)
+             34 STORE_ATTR               1 (seed_hash)
+
+198          44 LOAD_FAST                0 (self)
+             46 LOAD_ATTR                5 (NULL|self + _generate_primes_from_hash)
+             66 LOAD_FAST                0 (self)
+             68 LOAD_ATTR                2 (seed_hash)
+             88 CALL                     1
+             96 UNPACK_SEQUENCE          3
+            100 STORE_FAST               1 (m)
+            102 STORE_FAST               2 (c)
+            104 STORE_FAST               3 (n)
+
+200         106 LOAD_GLOBAL              7 (NULL + LCGOracle)
+            116 LOAD_FAST                1 (m)
+            118 LOAD_FAST                2 (c)
+            120 LOAD_FAST                3 (n)
+            122 LOAD_FAST                0 (self)
+            124 LOAD_ATTR                2 (seed_hash)
+            144 CALL                     4
+            152 LOAD_FAST                0 (self)
+            154 STORE_ATTR               4 (lcg_oracle)
+
+201         164 LOAD_FAST                0 (self)
+            166 LOAD_ATTR                8 (lcg_oracle)
+            186 LOAD_ATTR               11 (NULL|self + deploy_lcg_contract)
+            206 CALL                     0
+            214 POP_TOP
+
+202         216 LOAD_GLOBAL             13 (NULL + print)
+            226 LOAD_CONST               1 ('[SETUP] LCG Oracle is on-chain...')
+            228 CALL                     1
+            236 POP_TOP
+
+204         238 LOAD_GLOBAL             15 (NULL + TripleXOROracle)
+            248 CALL                     0
+            256 LOAD_FAST                0 (self)
+            258 STORE_ATTR               8 (xor_oracle)
+
+205         268 LOAD_FAST                0 (self)
+            270 LOAD_ATTR               16 (xor_oracle)
+            290 LOAD_ATTR               19 (NULL|self + deploy_triple_xor_contract)
+            310 CALL                     0
+            318 POP_TOP
+
+206         320 LOAD_GLOBAL             13 (NULL + print)
+            330 LOAD_CONST               2 ('[SETUP] Triple XOR Oracle is on-chain...')
+            332 CALL                     1
+            340 POP_TOP
+
+208         342 LOAD_GLOBAL             13 (NULL + print)
+            352 LOAD_CONST               3 ('[SETUP] Crypto backend initialized...')
+            354 CALL                     1
+            362 POP_TOP
+            364 RETURN_CONST             0 (None)
+
+Disassembly of <code object generate_rsa_key_from_lcg at 0x55763e375790, file "challenge_to_compile.py", line 210>:
+210           0 RESUME                   0
+
+211           2 LOAD_GLOBAL              1 (NULL + print)
+             12 LOAD_CONST               1 ('[RSA] Generating RSA key from on-chain LCG primes...')
+             14 CALL                     1
+             22 POP_TOP
+
+213          24 LOAD_GLOBAL              3 (NULL + LCGOracle)
+
+214          34 LOAD_FAST                0 (self)
+             36 LOAD_ATTR                4 (lcg_oracle)
+             56 LOAD_ATTR                6 (multiplier)
+
+215          76 LOAD_FAST                0 (self)
+             78 LOAD_ATTR                4 (lcg_oracle)
+             98 LOAD_ATTR                8 (increment)
+
+216         118 LOAD_FAST                0 (self)
+            120 LOAD_ATTR                4 (lcg_oracle)
+            140 LOAD_ATTR               10 (modulus)
+
+217         160 LOAD_FAST                0 (self)
+            162 LOAD_ATTR               12 (seed_hash)
+
+213         182 CALL                     4
+            190 STORE_FAST               1 (lcg_for_rsa)
+
+219         192 LOAD_FAST                1 (lcg_for_rsa)
+            194 LOAD_ATTR               15 (NULL|self + deploy_lcg_contract)
+            214 CALL                     0
+            222 POP_TOP
+
+221         224 BUILD_LIST               0
+            226 STORE_FAST               2 (primes_arr)
+
+222         228 LOAD_CONST               2 (0)
+            230 STORE_FAST               3 (rsa_msg_count)
+
+223         232 LOAD_CONST               3 (10000)
+            234 STORE_FAST               4 (iteration_limit)
+
+224         236 LOAD_CONST               2 (0)
+            238 STORE_FAST               5 (iterations)
+
+226         240 LOAD_GLOBAL             17 (NULL + len)
+            250 LOAD_FAST                2 (primes_arr)
+            252 CALL                     1
+            260 LOAD_CONST               4 (8)
+            262 COMPARE_OP               2 (<)
+            266 POP_JUMP_IF_FALSE      122 (to 512)
+            268 LOAD_FAST                5 (iterations)
+            270 LOAD_FAST                4 (iteration_limit)
+            272 COMPARE_OP               2 (<)
+            276 POP_JUMP_IF_FALSE      117 (to 512)
+
+227     >>  278 LOAD_FAST                1 (lcg_for_rsa)
+            280 LOAD_ATTR               19 (NULL|self + get_next)
+            300 LOAD_FAST                3 (rsa_msg_count)
+            302 CALL                     1
+            310 STORE_FAST               6 (candidate)
+
+228         312 LOAD_FAST                3 (rsa_msg_count)
+            314 LOAD_CONST               5 (1)
+            316 BINARY_OP               13 (+=)
+            320 STORE_FAST               3 (rsa_msg_count)
+
+229         322 LOAD_FAST                5 (iterations)
+            324 LOAD_CONST               5 (1)
+            326 BINARY_OP               13 (+=)
+            330 STORE_FAST               5 (iterations)
+
+230         332 LOAD_FAST                6 (candidate)
+            334 LOAD_ATTR               21 (NULL|self + bit_length)
+            354 CALL                     0
+            362 LOAD_CONST               6 (256)
+            364 COMPARE_OP              40 (==)
+            368 POP_JUMP_IF_FALSE       51 (to 472)
+            370 LOAD_GLOBAL             23 (NULL + isPrime)
+            380 LOAD_FAST                6 (candidate)
+            382 CALL                     1
+            390 POP_JUMP_IF_FALSE       40 (to 472)
+
+231         392 LOAD_FAST                2 (primes_arr)
+            394 LOAD_ATTR               25 (NULL|self + append)
+            414 LOAD_FAST                6 (candidate)
+            416 CALL                     1
+            424 POP_TOP
+
+232         426 LOAD_GLOBAL              1 (NULL + print)
+            436 LOAD_CONST               7 ('[RSA]  - Found 256-bit prime #')
+            438 LOAD_GLOBAL             17 (NULL + len)
+            448 LOAD_FAST                2 (primes_arr)
+            450 CALL                     1
+            458 FORMAT_VALUE             0
+            460 BUILD_STRING             2
+            462 CALL                     1
+            470 POP_TOP
+
+226     >>  472 LOAD_GLOBAL             17 (NULL + len)
+            482 LOAD_FAST                2 (primes_arr)
+            484 CALL                     1
+            492 LOAD_CONST               4 (8)
+            494 COMPARE_OP               2 (<)
+            498 POP_JUMP_IF_FALSE        6 (to 512)
+            500 LOAD_FAST                5 (iterations)
+            502 LOAD_FAST                4 (iteration_limit)
+            504 COMPARE_OP               2 (<)
+            508 POP_JUMP_IF_FALSE        1 (to 512)
+            510 JUMP_BACKWARD          117 (to 278)
+
+233     >>  512 LOAD_GLOBAL              1 (NULL + print)
+            522 LOAD_CONST               8 ('Primes Array: ')
+            524 LOAD_FAST                2 (primes_arr)
+            526 CALL                     2
+            534 POP_TOP
+
+235         536 LOAD_GLOBAL             17 (NULL + len)
+            546 LOAD_FAST                2 (primes_arr)
+            548 CALL                     1
+            556 LOAD_CONST               4 (8)
+            558 COMPARE_OP               2 (<)
+            562 POP_JUMP_IF_FALSE       27 (to 618)
+
+236         564 LOAD_CONST               9 ('[RSA] Error: Could not find 8 primes within iteration limit.')
+            566 STORE_FAST               7 (error_msg)
+
+237         568 LOAD_GLOBAL              1 (NULL + print)
+            578 LOAD_CONST              10 ('Current Primes: ')
+            580 LOAD_FAST                2 (primes_arr)
+            582 CALL                     2
+            590 POP_TOP
+
+238         592 LOAD_GLOBAL              1 (NULL + print)
+            602 LOAD_FAST                7 (error_msg)
+            604 CALL                     1
+            612 POP_TOP
+
+239         614 LOAD_FAST                7 (error_msg)
+            616 RETURN_VALUE
+
+241     >>  618 LOAD_CONST               5 (1)
+            620 STORE_FAST               8 (n)
+
+242         622 LOAD_FAST                2 (primes_arr)
+            624 GET_ITER
+        >>  626 FOR_ITER                 7 (to 644)
+            630 STORE_FAST               9 (p_val)
+
+243         632 LOAD_FAST                8 (n)
+            634 LOAD_FAST                9 (p_val)
+            636 BINARY_OP               18 (*=)
+            640 STORE_FAST               8 (n)
+            642 JUMP_BACKWARD            9 (to 626)
+
+242     >>  644 END_FOR
+
+245         646 LOAD_CONST               5 (1)
+            648 STORE_FAST              10 (phi)
+
+246         650 LOAD_FAST                2 (primes_arr)
+            652 GET_ITER
+        >>  654 FOR_ITER                10 (to 678)
+            658 STORE_FAST               9 (p_val)
+
+247         660 LOAD_FAST               10 (phi)
+            662 LOAD_FAST                9 (p_val)
+            664 LOAD_CONST               5 (1)
+            666 BINARY_OP               10 (-)
+            670 BINARY_OP               18 (*=)
+            674 STORE_FAST              10 (phi)
+            676 JUMP_BACKWARD           12 (to 654)
+
+246     >>  678 END_FOR
+
+249         680 LOAD_CONST              11 (65537)
+            682 STORE_FAST              11 (e)
+
+251         684 LOAD_GLOBAL             27 (NULL + math)
+            694 LOAD_ATTR               28 (gcd)
+            714 LOAD_FAST               11 (e)
+            716 LOAD_FAST               10 (phi)
+            718 CALL                     2
+            726 LOAD_CONST               5 (1)
+            728 COMPARE_OP              55 (!=)
+            732 POP_JUMP_IF_FALSE       15 (to 764)
+
+252         734 LOAD_CONST              12 ('[RSA] Error: Public exponent e is not coprime with phi(n). Cannot generate key.')
+            736 STORE_FAST               7 (error_msg)
+
+253         738 LOAD_GLOBAL              1 (NULL + print)
+            748 LOAD_FAST                7 (error_msg)
+            750 CALL                     1
+            758 POP_TOP
+
+254         760 LOAD_FAST                7 (error_msg)
+            762 RETURN_VALUE
+
+256     >>  764 LOAD_GLOBAL             31 (NULL + RSA)
+            774 LOAD_ATTR               32 (construct)
+            794 LOAD_FAST                8 (n)
+            796 LOAD_FAST               11 (e)
+            798 BUILD_TUPLE              2
+            800 CALL                     1
+            808 LOAD_FAST                0 (self)
+            810 STORE_ATTR              17 (rsa_key)
+
+258         820 NOP
+
+259         822 LOAD_GLOBAL             37 (NULL + open)
+            832 LOAD_CONST              13 ('public.pem')
+            834 LOAD_CONST              14 ('wb')
+            836 CALL                     2
+            844 BEFORE_WITH
+            846 STORE_FAST              12 (f)
+
+260         848 LOAD_FAST               12 (f)
+            850 LOAD_ATTR               39 (NULL|self + write)
+            870 LOAD_FAST                0 (self)
+            872 LOAD_ATTR               34 (rsa_key)
+            892 LOAD_ATTR               41 (NULL|self + export_key)
+            912 LOAD_CONST              15 ('PEM')
+            914 CALL                     1
+            922 CALL                     1
+            930 POP_TOP
+
+259         932 LOAD_CONST               0 (None)
+            934 LOAD_CONST               0 (None)
+            936 LOAD_CONST               0 (None)
+            938 CALL                     2
+            946 POP_TOP
+
+261     >>  948 LOAD_GLOBAL              1 (NULL + print)
+            958 LOAD_CONST              16 ("[RSA] Public key generated and saved to 'public.pem'")
+            960 CALL                     1
+            968 POP_TOP
+
+262         970 RETURN_CONST            17 ('Public key generated and saved successfully.')
+
+259     >>  972 PUSH_EXC_INFO
+            974 WITH_EXCEPT_START
+            976 POP_JUMP_IF_TRUE         1 (to 980)
+            978 RERAISE                  2
+        >>  980 POP_TOP
+            982 POP_EXCEPT
+            984 POP_TOP
+            986 POP_TOP
+            988 JUMP_BACKWARD           21 (to 948)
+        >>  990 COPY                     3
+            992 POP_EXCEPT
+            994 RERAISE                  1
+        >>  996 PUSH_EXC_INFO
+
+263         998 LOAD_GLOBAL             42 (Exception)
+           1008 CHECK_EXC_MATCH
+           1010 POP_JUMP_IF_FALSE       29 (to 1070)
+           1012 STORE_FAST              11 (e)
+
+264        1014 LOAD_GLOBAL              1 (NULL + print)
+           1024 LOAD_CONST              18 ('[RSA] Error saving key: ')
+           1026 LOAD_FAST               11 (e)
+           1028 FORMAT_VALUE             0
+           1030 BUILD_STRING             2
+           1032 CALL                     1
+           1040 POP_TOP
+
+265        1042 LOAD_CONST              19 ('Error saving key: ')
+           1044 LOAD_FAST               11 (e)
+           1046 FORMAT_VALUE             0
+           1048 BUILD_STRING             2
+           1050 SWAP                     2
+           1052 POP_EXCEPT
+           1054 LOAD_CONST               0 (None)
+           1056 STORE_FAST              11 (e)
+           1058 DELETE_FAST             11 (e)
+           1060 RETURN_VALUE
+        >> 1062 LOAD_CONST               0 (None)
+           1064 STORE_FAST              11 (e)
+           1066 DELETE_FAST             11 (e)
+           1068 RERAISE                  1
+
+263     >> 1070 RERAISE                  0
+        >> 1072 COPY                     3
+           1074 POP_EXCEPT
+           1076 RERAISE                  1
+ExceptionTable:
+  822 to 844 -> 996 [0]
+  846 to 930 -> 972 [1] lasti
+  932 to 968 -> 996 [0]
+  972 to 980 -> 990 [3] lasti
+  982 to 994 -> 996 [0]
+  996 to 1012 -> 1072 [1] lasti
+  1014 to 1048 -> 1062 [1] lasti
+  1050 to 1050 -> 1072 [1] lasti
+  1062 to 1070 -> 1072 [1] lasti
+
+Disassembly of <code object process_message at 0x55763e376030, file "challenge_to_compile.py", line 267>:
+267           0 RESUME                   0
+
+268           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (conversation_start_time)
+             24 LOAD_CONST               1 (0)
+             26 COMPARE_OP              40 (==)
+             30 POP_JUMP_IF_FALSE       25 (to 82)
+
+269          32 LOAD_GLOBAL              3 (NULL + time)
+             42 LOAD_ATTR                2 (time)
+             62 CALL                     0
+             70 LOAD_FAST                0 (self)
+             72 STORE_ATTR               0 (conversation_start_time)
+
+271     >>   82 LOAD_GLOBAL              5 (NULL + int)
+             92 LOAD_GLOBAL              3 (NULL + time)
+            102 LOAD_ATTR                2 (time)
+            122 CALL                     0
+            130 LOAD_FAST                0 (self)
+            132 LOAD_ATTR                0 (conversation_start_time)
+            152 BINARY_OP               10 (-)
+            156 CALL                     1
+            164 STORE_FAST               2 (conversation_time)
+
+273         166 LOAD_FAST                0 (self)
+            168 LOAD_ATTR                6 (super_safe_mode)
+            188 POP_JUMP_IF_FALSE      165 (to 520)
+            190 LOAD_FAST                0 (self)
+            192 LOAD_ATTR                8 (rsa_key)
+            212 POP_JUMP_IF_FALSE      153 (to 520)
+
+274         214 LOAD_FAST                1 (plaintext)
+            216 LOAD_ATTR               11 (NULL|self + encode)
+            236 LOAD_CONST               2 ('utf-8')
+            238 CALL                     1
+            246 STORE_FAST               3 (plaintext_bytes)
+
+275         248 LOAD_GLOBAL             13 (NULL + bytes_to_long)
+            258 LOAD_FAST                3 (plaintext_bytes)
+            260 CALL                     1
+            268 STORE_FAST               4 (plaintext_enc)
+
+276         270 LOAD_GLOBAL             15 (NULL + pow)
+            280 LOAD_FAST                4 (plaintext_enc)
+            282 LOAD_FAST                0 (self)
+            284 LOAD_ATTR                8 (rsa_key)
+            304 LOAD_ATTR               16 (e)
+            324 LOAD_FAST                0 (self)
+            326 LOAD_ATTR                8 (rsa_key)
+            346 LOAD_ATTR               18 (n)
+            366 CALL                     3
+            374 STORE_FAST               5 (_enc)
+
+277         376 LOAD_FAST                5 (_enc)
+            378 LOAD_ATTR               21 (NULL|self + to_bytes)
+            398 LOAD_FAST                0 (self)
+            400 LOAD_ATTR                8 (rsa_key)
+            420 LOAD_ATTR               18 (n)
+            440 LOAD_ATTR               23 (NULL|self + bit_length)
+            460 CALL                     0
+            468 LOAD_CONST               3 ('little')
+            470 CALL                     2
+            478 LOAD_ATTR               25 (NULL|self + rstrip)
+            498 LOAD_CONST               4 (b'\x00')
+            500 CALL                     1
+            508 STORE_FAST               6 (ciphertext)
+
+278         510 LOAD_CONST               5 ('RSA')
+            512 STORE_FAST               7 (encryption_mode)
+
+279         514 LOAD_CONST               6 ('[ENCRYPTED]')
+            516 STORE_FAST               1 (plaintext)
+            518 JUMP_FORWARD            68 (to 656)
+
+281     >>  520 LOAD_FAST                0 (self)
+            522 LOAD_ATTR               26 (lcg_oracle)
+            542 LOAD_ATTR               29 (NULL|self + get_next)
+            562 LOAD_FAST                0 (self)
+            564 LOAD_ATTR               30 (message_count)
+            584 CALL                     1
+            592 STORE_FAST               8 (prime_from_lcg)
+
+282         594 LOAD_FAST                0 (self)
+            596 LOAD_ATTR               32 (xor_oracle)
+            616 LOAD_ATTR               35 (NULL|self + encrypt)
+            636 LOAD_FAST                8 (prime_from_lcg)
+            638 LOAD_FAST                2 (conversation_time)
+            640 LOAD_FAST                1 (plaintext)
+            642 CALL                     3
+            650 STORE_FAST               6 (ciphertext)
+
+283         652 LOAD_CONST               7 ('LCG-XOR')
+            654 STORE_FAST               7 (encryption_mode)
+
+286     >>  656 LOAD_FAST                2 (conversation_time)
+
+287         658 LOAD_FAST                7 (encryption_mode)
+
+288         660 LOAD_FAST                1 (plaintext)
+
+289         662 LOAD_FAST                6 (ciphertext)
+            664 LOAD_ATTR               37 (NULL|self + hex)
+            684 CALL                     0
+
+285         692 LOAD_CONST               8 (('conversation_time', 'mode', 'plaintext', 'ciphertext'))
+            694 BUILD_CONST_KEY_MAP      4
+            696 STORE_FAST               9 (log_entry)
+
+292         698 LOAD_FAST                0 (self)
+            700 LOAD_ATTR               38 (chat_history)
+            720 LOAD_ATTR               41 (NULL|self + append)
+            740 LOAD_FAST                9 (log_entry)
+            742 CALL                     1
+            750 POP_TOP
+
+293         752 LOAD_FAST                0 (self)
+            754 COPY                     1
+            756 LOAD_ATTR               30 (message_count)
+            776 LOAD_CONST               9 (1)
+            778 BINARY_OP               13 (+=)
+            782 SWAP                     2
+            784 STORE_ATTR              15 (message_count)
+
+294         794 LOAD_FAST                0 (self)
+            796 LOAD_ATTR               43 (NULL|self + save_chat_log)
+            816 CALL                     0
+            824 POP_TOP
+
+296         826 LOAD_CONST              10 ('[')
+            828 LOAD_FAST                2 (conversation_time)
+            830 FORMAT_VALUE             0
+            832 LOAD_CONST              11 ('s] ')
+            834 LOAD_FAST                1 (plaintext)
+            836 FORMAT_VALUE             0
+            838 BUILD_STRING             4
+            840 LOAD_CONST              10 ('[')
+            842 LOAD_FAST                2 (conversation_time)
+            844 FORMAT_VALUE             0
+            846 LOAD_CONST              11 ('s] ')
+            848 LOAD_FAST                6 (ciphertext)
+            850 LOAD_ATTR               37 (NULL|self + hex)
+            870 CALL                     0
+            878 FORMAT_VALUE             0
+            880 BUILD_STRING             4
+            882 BUILD_TUPLE              2
+            884 RETURN_VALUE
+
+Disassembly of <code object save_chat_log at 0x7f36a1fbd550, file "challenge_to_compile.py", line 298>:
+298           0 RESUME                   0
+
+299           2 NOP
+
+300           4 LOAD_GLOBAL              1 (NULL + open)
+             14 LOAD_CONST               1 ('chat_log.json')
+             16 LOAD_CONST               2 ('w')
+             18 CALL                     2
+             26 BEFORE_WITH
+             28 STORE_FAST               1 (f)
+
+301          30 LOAD_GLOBAL              3 (NULL + json)
+             40 LOAD_ATTR                4 (dump)
+             60 LOAD_FAST                0 (self)
+             62 LOAD_ATTR                6 (chat_history)
+             82 LOAD_FAST                1 (f)
+             84 LOAD_CONST               3 (2)
+             86 KW_NAMES                 4 (('indent',))
+             88 CALL                     3
+             96 POP_TOP
+
+300          98 LOAD_CONST               0 (None)
+            100 LOAD_CONST               0 (None)
+            102 LOAD_CONST               0 (None)
+            104 CALL                     2
+            112 POP_TOP
+            114 RETURN_CONST             0 (None)
+        >>  116 PUSH_EXC_INFO
+            118 WITH_EXCEPT_START
+            120 POP_JUMP_IF_TRUE         1 (to 124)
+            122 RERAISE                  2
+        >>  124 POP_TOP
+            126 POP_EXCEPT
+            128 POP_TOP
+            130 POP_TOP
+            132 RETURN_CONST             0 (None)
+        >>  134 COPY                     3
+            136 POP_EXCEPT
+            138 RERAISE                  1
+        >>  140 PUSH_EXC_INFO
+
+302         142 LOAD_GLOBAL              8 (Exception)
+            152 CHECK_EXC_MATCH
+            154 POP_JUMP_IF_FALSE       24 (to 204)
+            156 STORE_FAST               2 (e)
+
+303         158 LOAD_GLOBAL             11 (NULL + print)
+            168 LOAD_CONST               5 ('Error saving chat log: ')
+            170 LOAD_FAST                2 (e)
+            172 FORMAT_VALUE             0
+            174 BUILD_STRING             2
+            176 CALL                     1
+            184 POP_TOP
+            186 POP_EXCEPT
+            188 LOAD_CONST               0 (None)
+            190 STORE_FAST               2 (e)
+            192 DELETE_FAST              2 (e)
+            194 RETURN_CONST             0 (None)
+        >>  196 LOAD_CONST               0 (None)
+            198 STORE_FAST               2 (e)
+            200 DELETE_FAST              2 (e)
+            202 RERAISE                  1
+
+302     >>  204 RERAISE                  0
+        >>  206 COPY                     3
+            208 POP_EXCEPT
+            210 RERAISE                  1
+ExceptionTable:
+  4 to 26 -> 140 [0]
+  28 to 96 -> 116 [1] lasti
+  98 to 112 -> 140 [0]
+  116 to 124 -> 134 [3] lasti
+  126 to 130 -> 140 [0]
+  134 to 138 -> 140 [0]
+  140 to 156 -> 206 [1] lasti
+  158 to 184 -> 196 [1] lasti
+  196 to 204 -> 206 [1] lasti
+
+Disassembly of <code object ChatApp at 0x7f36a1ff2670, file "challenge_to_compile.py", line 305>:
+              0 MAKE_CELL                0 (__class__)
+
+305           2 RESUME                   0
+              4 LOAD_NAME                0 (__name__)
+              6 STORE_NAME               1 (__module__)
+              8 LOAD_CONST               0 ('ChatApp')
+             10 STORE_NAME               2 (__qualname__)
+
+306          12 LOAD_CLOSURE             0 (__class__)
+             14 BUILD_TUPLE              1
+             16 LOAD_CONST               1 (<code object __init__ at 0x55763e376470, file "challenge_to_compile.py", line 306>)
+             18 MAKE_FUNCTION            8 (closure)
+             20 STORE_NAME               3 (__init__)
+
+358          22 LOAD_CONST               2 (<code object open_web3_config_window at 0x55763e34d740, file "challenge_to_compile.py", line 358>)
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               4 (open_web3_config_window)
+
+400          28 LOAD_CONST               3 (<code object connect_to_peer at 0x55763e35b430, file "challenge_to_compile.py", line 400>)
+             30 MAKE_FUNCTION            0
+             32 STORE_NAME               5 (connect_to_peer)
+
+411          34 LOAD_CONST               4 (<code object display_message_in_box at 0x55763e34dbb0, file "challenge_to_compile.py", line 411>)
+             36 MAKE_FUNCTION            0
+             38 STORE_NAME               6 (display_message_in_box)
+
+421          40 LOAD_CONST               9 ((None,))
+             42 LOAD_CONST               5 (<code object send_message_event at 0x7f36a2030600, file "challenge_to_compile.py", line 421>)
+             44 MAKE_FUNCTION            1 (defaults)
+             46 STORE_NAME               7 (send_message_event)
+
+429          48 LOAD_CONST               6 (<code object toggle_super_safe at 0x7f36a1f9d7c0, file "challenge_to_compile.py", line 429>)
+             50 MAKE_FUNCTION            0
+             52 STORE_NAME               8 (toggle_super_safe)
+
+438          54 LOAD_CONST               7 (<code object generate_rsa_and_update_gui at 0x7f36a2049f10, file "challenge_to_compile.py", line 438>)
+             56 MAKE_FUNCTION            0
+             58 STORE_NAME               9 (generate_rsa_and_update_gui)
+
+442          60 LOAD_CONST               8 (<code object load_last_generated_files at 0x55763e378e30, file "challenge_to_compile.py", line 442>)
+             62 MAKE_FUNCTION            0
+             64 STORE_NAME              10 (load_last_generated_files)
+             66 LOAD_CLOSURE             0 (__class__)
+             68 COPY                     1
+             70 STORE_NAME              11 (__classcell__)
+             72 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x55763e376470, file "challenge_to_compile.py", line 306>:
+              0 COPY_FREE_VARS           1
+
+306           2 RESUME                   0
+
+307           4 LOAD_GLOBAL              0 (super)
+             14 LOAD_DEREF               4 (__class__)
+             16 LOAD_FAST                0 (self)
+             18 LOAD_SUPER_ATTR          5 (NULL|self + __init__)
+             22 CALL                     0
+             30 POP_TOP
+
+308          32 LOAD_FAST                0 (self)
+             34 LOAD_ATTR                5 (NULL|self + title)
+             54 LOAD_CONST               1 ('Chain of Demands - Secure Chat')
+             56 CALL                     1
+             64 POP_TOP
+
+309          66 LOAD_FAST                0 (self)
+             68 LOAD_ATTR                7 (NULL|self + geometry)
+             88 LOAD_CONST               2 ('1000x800')
+             90 CALL                     1
+             98 POP_TOP
+
+311         100 LOAD_GLOBAL              9 (NULL + tk)
+            110 LOAD_ATTR               10 (Frame)
+            130 LOAD_FAST                0 (self)
+            132 LOAD_CONST               3 (5)
+            134 KW_NAMES                 4 (('bd',))
+            136 CALL                     2
+            144 STORE_FAST               1 (top_frame)
+
+312         146 LOAD_FAST                1 (top_frame)
+            148 LOAD_ATTR               13 (NULL|self + pack)
+            168 LOAD_CONST               5 ('x')
+            170 KW_NAMES                 6 (('fill',))
+            172 CALL                     1
+            180 POP_TOP
+
+314         182 LOAD_GLOBAL              9 (NULL + tk)
+            192 LOAD_ATTR               10 (Frame)
+            212 LOAD_FAST                0 (self)
+            214 LOAD_CONST               3 (5)
+            216 KW_NAMES                 4 (('bd',))
+            218 CALL                     2
+            226 STORE_FAST               2 (chat_frame)
+
+315         228 LOAD_FAST                2 (chat_frame)
+            230 LOAD_ATTR               13 (NULL|self + pack)
+            250 LOAD_CONST               7 (True)
+            252 LOAD_CONST               8 ('both')
+            254 KW_NAMES                 9 (('expand', 'fill'))
+            256 CALL                     2
+            264 POP_TOP
+
+317         266 LOAD_GLOBAL              9 (NULL + tk)
+            276 LOAD_ATTR               10 (Frame)
+            296 LOAD_FAST                0 (self)
+            298 LOAD_CONST               3 (5)
+            300 KW_NAMES                 4 (('bd',))
+            302 CALL                     2
+            310 STORE_FAST               3 (input_frame)
+
+318         312 LOAD_FAST                3 (input_frame)
+            314 LOAD_ATTR               13 (NULL|self + pack)
+            334 LOAD_CONST               5 ('x')
+            336 KW_NAMES                 6 (('fill',))
+            338 CALL                     1
+            346 POP_TOP
+
+320         348 LOAD_GLOBAL              9 (NULL + tk)
+            358 LOAD_ATTR               14 (Label)
+            378 LOAD_FAST                1 (top_frame)
+            380 LOAD_CONST              10 ('Connect to IP:')
+            382 KW_NAMES                11 (('text',))
+            384 CALL                     2
+            392 LOAD_ATTR               13 (NULL|self + pack)
+            412 LOAD_CONST              12 ('left')
+            414 KW_NAMES                13 (('side',))
+            416 CALL                     1
+            424 POP_TOP
+
+321         426 LOAD_GLOBAL              9 (NULL + tk)
+            436 LOAD_ATTR               16 (Entry)
+            456 LOAD_FAST                1 (top_frame)
+            458 LOAD_CONST              14 (20)
+            460 KW_NAMES                15 (('width',))
+            462 CALL                     2
+            470 LOAD_FAST                0 (self)
+            472 STORE_ATTR               9 (ip_entry)
+
+322         482 LOAD_FAST                0 (self)
+            484 LOAD_ATTR               18 (ip_entry)
+            504 LOAD_ATTR               21 (NULL|self + insert)
+            524 LOAD_CONST              16 (0)
+            526 LOAD_CONST              17 ('127.0.0.1')
+            528 CALL                     2
+            536 POP_TOP
+
+323         538 LOAD_FAST                0 (self)
+            540 LOAD_ATTR               18 (ip_entry)
+            560 LOAD_ATTR               13 (NULL|self + pack)
+            580 LOAD_CONST              12 ('left')
+            582 LOAD_CONST               3 (5)
+            584 KW_NAMES                18 (('side', 'padx'))
+            586 CALL                     2
+            594 POP_TOP
+
+325         596 LOAD_GLOBAL              9 (NULL + tk)
+            606 LOAD_ATTR               22 (Button)
+            626 LOAD_FAST                1 (top_frame)
+            628 LOAD_CONST              19 ('Connect')
+            630 LOAD_FAST                0 (self)
+            632 LOAD_ATTR               24 (connect_to_peer)
+            652 KW_NAMES                20 (('text', 'command'))
+            654 CALL                     3
+            662 LOAD_FAST                0 (self)
+            664 STORE_ATTR              13 (connect_button)
+
+326         674 LOAD_FAST                0 (self)
+            676 LOAD_ATTR               26 (connect_button)
+            696 LOAD_ATTR               13 (NULL|self + pack)
+            716 LOAD_CONST              12 ('left')
+            718 KW_NAMES                13 (('side',))
+            720 CALL                     1
+            728 POP_TOP
+
+328         730 LOAD_GLOBAL              9 (NULL + tk)
+            740 LOAD_ATTR               22 (Button)
+            760 LOAD_FAST                1 (top_frame)
+            762 LOAD_CONST              21 ('Last Convo')
+            764 LOAD_FAST                0 (self)
+            766 LOAD_ATTR               28 (load_last_generated_files)
+            786 KW_NAMES                20 (('text', 'command'))
+            788 CALL                     3
+            796 LOAD_FAST                0 (self)
+            798 STORE_ATTR              15 (load_files_button)
+
+329         808 LOAD_FAST                0 (self)
+            810 LOAD_ATTR               30 (load_files_button)
+            830 LOAD_ATTR               13 (NULL|self + pack)
+            850 LOAD_CONST              12 ('left')
+            852 LOAD_CONST              22 (10)
+            854 KW_NAMES                18 (('side', 'padx'))
+            856 CALL                     2
+            864 POP_TOP
+
+331         866 LOAD_GLOBAL              9 (NULL + tk)
+            876 LOAD_ATTR               22 (Button)
+            896 LOAD_FAST                1 (top_frame)
+            898 LOAD_CONST              23 ('Web3 Config')
+            900 LOAD_FAST                0 (self)
+            902 LOAD_ATTR               32 (open_web3_config_window)
+            922 KW_NAMES                20 (('text', 'command'))
+            924 CALL                     3
+            932 LOAD_FAST                0 (self)
+            934 STORE_ATTR              17 (web3_config_button)
+
+332         944 LOAD_FAST                0 (self)
+            946 LOAD_ATTR               34 (web3_config_button)
+            966 LOAD_ATTR               13 (NULL|self + pack)
+            986 LOAD_CONST              12 ('left')
+            988 KW_NAMES                13 (('side',))
+            990 CALL                     1
+            998 POP_TOP
+
+334        1000 LOAD_GLOBAL              9 (NULL + tk)
+           1010 LOAD_ATTR               14 (Label)
+           1030 LOAD_FAST                1 (top_frame)
+           1032 LOAD_CONST              24 ('Status: Disconnected')
+           1034 LOAD_CONST              25 ('red')
+           1036 KW_NAMES                26 (('text', 'fg'))
+           1038 CALL                     3
+           1046 LOAD_FAST                0 (self)
+           1048 STORE_ATTR              18 (status_label)
+
+335        1058 LOAD_FAST                0 (self)
+           1060 LOAD_ATTR               36 (status_label)
+           1080 LOAD_ATTR               13 (NULL|self + pack)
+           1100 LOAD_CONST              12 ('left')
+           1102 LOAD_CONST              22 (10)
+           1104 KW_NAMES                18 (('side', 'padx'))
+           1106 CALL                     2
+           1114 POP_TOP
+
+337        1116 LOAD_GLOBAL             39 (NULL + scrolledtext)
+           1126 LOAD_ATTR               40 (ScrolledText)
+           1146 LOAD_FAST                2 (chat_frame)
+           1148 LOAD_CONST              27 ('disabled')
+           1150 LOAD_GLOBAL              8 (tk)
+           1160 LOAD_ATTR               42 (WORD)
+           1180 LOAD_CONST              28 ('#f0f0f0')
+           1182 KW_NAMES                29 (('state', 'wrap', 'bg'))
+           1184 CALL                     4
+           1192 LOAD_FAST                0 (self)
+           1194 STORE_ATTR              22 (chat_box)
+
+338        1204 LOAD_FAST                0 (self)
+           1206 LOAD_ATTR               44 (chat_box)
+           1226 LOAD_ATTR               13 (NULL|self + pack)
+           1246 LOAD_CONST               7 (True)
+           1248 LOAD_CONST               8 ('both')
+           1250 KW_NAMES                 9 (('expand', 'fill'))
+           1252 CALL                     2
+           1260 POP_TOP
+
+340        1262 LOAD_GLOBAL              9 (NULL + tk)
+           1272 LOAD_ATTR               16 (Entry)
+           1292 LOAD_FAST                3 (input_frame)
+           1294 LOAD_CONST              30 (60)
+           1296 KW_NAMES                15 (('width',))
+           1298 CALL                     2
+           1306 LOAD_FAST                0 (self)
+           1308 STORE_ATTR              23 (msg_entry)
+
+341        1318 LOAD_FAST                0 (self)
+           1320 LOAD_ATTR               46 (msg_entry)
+           1340 LOAD_ATTR               13 (NULL|self + pack)
+           1360 LOAD_CONST              12 ('left')
+           1362 LOAD_CONST               7 (True)
+           1364 LOAD_CONST               5 ('x')
+           1366 LOAD_CONST               3 (5)
+           1368 KW_NAMES                31 (('side', 'expand', 'fill', 'padx'))
+           1370 CALL                     4
+           1378 POP_TOP
+
+342        1380 LOAD_FAST                0 (self)
+           1382 LOAD_ATTR               46 (msg_entry)
+           1402 LOAD_ATTR               49 (NULL|self + bind)
+           1422 LOAD_CONST              32 ('<Return>')
+           1424 LOAD_FAST                0 (self)
+           1426 LOAD_ATTR               50 (send_message_event)
+           1446 CALL                     2
+           1454 POP_TOP
+
+343        1456 LOAD_FAST                0 (self)
+           1458 LOAD_ATTR               46 (msg_entry)
+           1478 LOAD_ATTR               53 (NULL|self + config)
+           1498 LOAD_CONST              27 ('disabled')
+           1500 KW_NAMES                33 (('state',))
+           1502 CALL                     1
+           1510 POP_TOP
+
+345        1512 LOAD_GLOBAL              9 (NULL + tk)
+           1522 LOAD_ATTR               22 (Button)
+           1542 LOAD_FAST                3 (input_frame)
+           1544 LOAD_CONST              34 ('Send')
+           1546 LOAD_FAST                0 (self)
+           1548 LOAD_ATTR               50 (send_message_event)
+           1568 KW_NAMES                20 (('text', 'command'))
+           1570 CALL                     3
+           1578 LOAD_FAST                0 (self)
+           1580 STORE_ATTR              27 (send_button)
+
+346        1590 LOAD_FAST                0 (self)
+           1592 LOAD_ATTR               54 (send_button)
+           1612 LOAD_ATTR               13 (NULL|self + pack)
+           1632 LOAD_CONST              12 ('left')
+           1634 KW_NAMES                13 (('side',))
+           1636 CALL                     1
+           1644 POP_TOP
+
+347        1646 LOAD_FAST                0 (self)
+           1648 LOAD_ATTR               54 (send_button)
+           1668 LOAD_ATTR               53 (NULL|self + config)
+           1688 LOAD_CONST              27 ('disabled')
+           1690 KW_NAMES                33 (('state',))
+           1692 CALL                     1
+           1700 POP_TOP
+
+349        1702 LOAD_GLOBAL             57 (NULL + BooleanVar)
+           1712 CALL                     0
+           1720 LOAD_FAST                0 (self)
+           1722 STORE_ATTR              29 (super_safe_var)
+
+350        1732 LOAD_GLOBAL             61 (NULL + Checkbutton)
+
+351        1742 LOAD_FAST                1 (top_frame)
+           1744 LOAD_CONST              35 ('Enable Super-Safe Encryption')
+
+352        1746 LOAD_FAST                0 (self)
+           1748 LOAD_ATTR               58 (super_safe_var)
+           1768 LOAD_FAST                0 (self)
+           1770 LOAD_ATTR               62 (toggle_super_safe)
+
+350        1790 KW_NAMES                36 (('text', 'variable', 'command'))
+           1792 CALL                     4
+           1800 LOAD_FAST                0 (self)
+           1802 STORE_ATTR              32 (super_safe_check)
+
+354        1812 LOAD_FAST                0 (self)
+           1814 LOAD_ATTR               64 (super_safe_check)
+           1834 LOAD_ATTR               13 (NULL|self + pack)
+           1854 LOAD_CONST              37 ('right')
+           1856 LOAD_CONST              22 (10)
+           1858 KW_NAMES                18 (('side', 'padx'))
+           1860 CALL                     2
+           1868 POP_TOP
+
+356        1870 LOAD_GLOBAL             67 (NULL + ChatLogic)
+           1880 CALL                     0
+           1888 LOAD_FAST                0 (self)
+           1890 STORE_ATTR              34 (logic)
+           1900 RETURN_CONST             0 (None)
+
+Disassembly of <code object open_web3_config_window at 0x55763e34d740, file "challenge_to_compile.py", line 358>:
+              0 MAKE_CELL                4 (config_window)
+              2 MAKE_CELL                5 (pk_entry)
+              4 MAKE_CELL                6 (rpc_entry)
+
+358           6 RESUME                   0
+
+359           8 LOAD_GLOBAL              1 (NULL + Toplevel)
+             18 LOAD_FAST                0 (self)
+             20 CALL                     1
+             28 STORE_DEREF              4 (config_window)
+
+360          30 LOAD_DEREF               4 (config_window)
+             32 LOAD_ATTR                3 (NULL|self + title)
+             52 LOAD_CONST               1 ('Web3 Configuration')
+             54 CALL                     1
+             62 POP_TOP
+
+361          64 LOAD_DEREF               4 (config_window)
+             66 LOAD_ATTR                5 (NULL|self + geometry)
+             86 LOAD_CONST               2 ('650x150')
+             88 CALL                     1
+             96 POP_TOP
+
+362          98 LOAD_DEREF               4 (config_window)
+            100 LOAD_ATTR                7 (NULL|self + resizable)
+            120 LOAD_CONST               3 (False)
+            122 LOAD_CONST               3 (False)
+            124 CALL                     2
+            132 POP_TOP
+
+364         134 LOAD_GLOBAL              9 (NULL + tk)
+            144 LOAD_ATTR               10 (Frame)
+            164 LOAD_DEREF               4 (config_window)
+            166 LOAD_CONST               4 (10)
+            168 LOAD_CONST               4 (10)
+            170 KW_NAMES                 5 (('padx', 'pady'))
+            172 CALL                     3
+            180 STORE_FAST               1 (main_frame)
+
+365         182 LOAD_FAST                1 (main_frame)
+            184 LOAD_ATTR               13 (NULL|self + pack)
+            204 LOAD_CONST               6 (True)
+            206 LOAD_CONST               7 ('both')
+            208 KW_NAMES                 8 (('expand', 'fill'))
+            210 CALL                     2
+            218 POP_TOP
+
+367         220 LOAD_GLOBAL              9 (NULL + tk)
+            230 LOAD_ATTR               14 (Label)
+            250 LOAD_FAST                1 (main_frame)
+            252 LOAD_CONST               9 ('RPC URL:')
+            254 KW_NAMES                10 (('text',))
+            256 CALL                     2
+            264 LOAD_ATTR               17 (NULL|self + grid)
+            284 LOAD_CONST              11 (0)
+            286 LOAD_CONST              11 (0)
+            288 LOAD_CONST              12 ('w')
+            290 LOAD_CONST              13 (5)
+            292 KW_NAMES                14 (('row', 'column', 'sticky', 'pady'))
+            294 CALL                     4
+            302 POP_TOP
+
+368         304 LOAD_GLOBAL              9 (NULL + tk)
+            314 LOAD_ATTR               18 (Entry)
+            334 LOAD_FAST                1 (main_frame)
+            336 LOAD_CONST              15 (60)
+            338 KW_NAMES                16 (('width',))
+            340 CALL                     2
+            348 STORE_DEREF              6 (rpc_entry)
+
+369         350 LOAD_DEREF               6 (rpc_entry)
+            352 LOAD_ATTR               17 (NULL|self + grid)
+            372 LOAD_CONST              11 (0)
+            374 LOAD_CONST              17 (1)
+            376 LOAD_CONST              18 ('ew')
+            378 KW_NAMES                19 (('row', 'column', 'sticky'))
+            380 CALL                     3
+            388 POP_TOP
+
+370         390 LOAD_DEREF               6 (rpc_entry)
+            392 LOAD_ATTR               21 (NULL|self + insert)
+            412 LOAD_CONST              11 (0)
+            414 LOAD_GLOBAL             22 (SmartContracts)
+            424 LOAD_ATTR               24 (rpc_url)
+            444 CALL                     2
+            452 POP_TOP
+
+372         454 LOAD_GLOBAL              9 (NULL + tk)
+            464 LOAD_ATTR               14 (Label)
+            484 LOAD_FAST                1 (main_frame)
+            486 LOAD_CONST              20 ('Private Key:')
+            488 KW_NAMES                10 (('text',))
+            490 CALL                     2
+            498 LOAD_ATTR               17 (NULL|self + grid)
+            518 LOAD_CONST              17 (1)
+            520 LOAD_CONST              11 (0)
+            522 LOAD_CONST              12 ('w')
+            524 LOAD_CONST              13 (5)
+            526 KW_NAMES                14 (('row', 'column', 'sticky', 'pady'))
+            528 CALL                     4
+            536 POP_TOP
+
+373         538 LOAD_GLOBAL              9 (NULL + tk)
+            548 LOAD_ATTR               18 (Entry)
+            568 LOAD_FAST                1 (main_frame)
+            570 LOAD_CONST              15 (60)
+            572 KW_NAMES                16 (('width',))
+            574 CALL                     2
+            582 STORE_DEREF              5 (pk_entry)
+
+374         584 LOAD_DEREF               5 (pk_entry)
+            586 LOAD_ATTR               17 (NULL|self + grid)
+            606 LOAD_CONST              17 (1)
+            608 LOAD_CONST              17 (1)
+            610 LOAD_CONST              18 ('ew')
+            612 KW_NAMES                19 (('row', 'column', 'sticky'))
+            614 CALL                     3
+            622 POP_TOP
+
+375         624 LOAD_DEREF               5 (pk_entry)
+            626 LOAD_ATTR               21 (NULL|self + insert)
+            646 LOAD_CONST              11 (0)
+            648 LOAD_GLOBAL             22 (SmartContracts)
+            658 LOAD_ATTR               26 (private_key)
+            678 CALL                     2
+            686 POP_TOP
+
+377         688 LOAD_CLOSURE             4 (config_window)
+            690 LOAD_CLOSURE             5 (pk_entry)
+            692 LOAD_CLOSURE             6 (rpc_entry)
+            694 BUILD_TUPLE              3
+            696 LOAD_CONST              21 (<code object save_and_close at 0x55763e2f6b30, file "challenge_to_compile.py", line 377>)
+            698 MAKE_FUNCTION            8 (closure)
+            700 STORE_FAST               2 (save_and_close)
+
+391         702 LOAD_GLOBAL              9 (NULL + tk)
+            712 LOAD_ATTR               28 (Button)
+            732 LOAD_FAST                1 (main_frame)
+            734 LOAD_CONST              22 ('Save & Close')
+            736 LOAD_FAST                2 (save_and_close)
+            738 KW_NAMES                23 (('text', 'command'))
+            740 CALL                     3
+            748 STORE_FAST               3 (save_button)
+
+392         750 LOAD_FAST                3 (save_button)
+            752 LOAD_ATTR               17 (NULL|self + grid)
+            772 LOAD_CONST              24 (2)
+            774 LOAD_CONST              17 (1)
+            776 LOAD_CONST              25 ('e')
+            778 LOAD_CONST               4 (10)
+            780 KW_NAMES                14 (('row', 'column', 'sticky', 'pady'))
+            782 CALL                     4
+            790 POP_TOP
+
+394         792 LOAD_DEREF               4 (config_window)
+            794 LOAD_ATTR               31 (NULL|self + transient)
+            814 LOAD_FAST                0 (self)
+            816 CALL                     1
+            824 POP_TOP
+
+395         826 LOAD_DEREF               4 (config_window)
+            828 LOAD_ATTR               33 (NULL|self + grab_set)
+            848 CALL                     0
+            856 POP_TOP
+
+396         858 LOAD_FAST                0 (self)
+            860 LOAD_ATTR               35 (NULL|self + wait_window)
+            880 LOAD_DEREF               4 (config_window)
+            882 CALL                     1
+            890 POP_TOP
+
+398         892 LOAD_GLOBAL             37 (NULL + ChatLogic)
+            902 CALL                     0
+            910 LOAD_FAST                0 (self)
+            912 STORE_ATTR              19 (logic)
+            922 RETURN_CONST             0 (None)
+
+Disassembly of <code object save_and_close at 0x55763e2f6b30, file "challenge_to_compile.py", line 377>:
+              0 COPY_FREE_VARS           3
+
+377           2 RESUME                   0
+
+378           4 LOAD_DEREF               4 (rpc_entry)
+              6 LOAD_ATTR                1 (NULL|self + get)
+             26 CALL                     0
+             34 LOAD_ATTR                3 (NULL|self + strip)
+             54 CALL                     0
+             62 STORE_FAST               0 (new_rpc_url)
+
+379          64 LOAD_DEREF               3 (pk_entry)
+             66 LOAD_ATTR                1 (NULL|self + get)
+             86 CALL                     0
+             94 LOAD_ATTR                3 (NULL|self + strip)
+            114 CALL                     0
+            122 STORE_FAST               1 (new_pk)
+
+381         124 LOAD_FAST                0 (new_rpc_url)
+            126 POP_JUMP_IF_FALSE       90 (to 308)
+            128 LOAD_FAST                1 (new_pk)
+            130 POP_JUMP_IF_FALSE       88 (to 308)
+
+382         132 LOAD_FAST                0 (new_rpc_url)
+            134 LOAD_GLOBAL              4 (SmartContracts)
+            144 STORE_ATTR               3 (rpc_url)
+
+383         154 LOAD_FAST                1 (new_pk)
+            156 LOAD_GLOBAL              4 (SmartContracts)
+            166 STORE_ATTR               4 (private_key)
+
+384         176 LOAD_GLOBAL             11 (NULL + print)
+            186 LOAD_CONST               1 ('[CONFIG] Web3 RPC URL updated to: ')
+            188 LOAD_FAST                0 (new_rpc_url)
+            190 FORMAT_VALUE             0
+            192 BUILD_STRING             2
+            194 CALL                     1
+            202 POP_TOP
+
+385         204 LOAD_GLOBAL             11 (NULL + print)
+            214 LOAD_CONST               2 ('[CONFIG] Web3 Private Key updated.')
+            216 CALL                     1
+            224 POP_TOP
+
+386         226 LOAD_GLOBAL             13 (NULL + messagebox)
+            236 LOAD_ATTR               14 (showinfo)
+            256 LOAD_CONST               3 ('Success')
+            258 LOAD_CONST               4 ('Web3 configuration has been updated.')
+            260 LOAD_DEREF               2 (config_window)
+            262 KW_NAMES                 5 (('parent',))
+            264 CALL                     3
+            272 POP_TOP
+
+387         274 LOAD_DEREF               2 (config_window)
+            276 LOAD_ATTR               17 (NULL|self + destroy)
+            296 CALL                     0
+            304 POP_TOP
+            306 RETURN_CONST             0 (None)
+
+389     >>  308 LOAD_GLOBAL             13 (NULL + messagebox)
+            318 LOAD_ATTR               18 (showerror)
+            338 LOAD_CONST               6 ('Error')
+            340 LOAD_CONST               7 ('Both fields are required.')
+            342 LOAD_DEREF               2 (config_window)
+            344 KW_NAMES                 5 (('parent',))
+            346 CALL                     3
+            354 POP_TOP
+            356 RETURN_CONST             0 (None)
+
+Disassembly of <code object connect_to_peer at 0x55763e35b430, file "challenge_to_compile.py", line 400>:
+400           0 RESUME                   0
+
+401           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (ip_entry)
+             24 LOAD_ATTR                3 (NULL|self + get)
+             44 CALL                     0
+             52 STORE_FAST               1 (ip)
+
+402          54 LOAD_FAST                1 (ip)
+             56 POP_JUMP_IF_FALSE      165 (to 388)
+
+403          58 LOAD_FAST                0 (self)
+             60 LOAD_ATTR                4 (status_label)
+             80 LOAD_ATTR                7 (NULL|self + config)
+            100 LOAD_CONST               1 ('Status: Connected to ')
+            102 LOAD_FAST                1 (ip)
+            104 FORMAT_VALUE             0
+            106 BUILD_STRING             2
+            108 LOAD_CONST               2 ('green')
+            110 KW_NAMES                 3 (('text', 'fg'))
+            112 CALL                     2
+            120 POP_TOP
+
+404         122 LOAD_FAST                0 (self)
+            124 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            144 LOAD_CONST               4 ('--- Welcome to Secure Chat ---')
+            146 LOAD_CONST               5 ('system')
+            148 CALL                     2
+            156 POP_TOP
+
+405         158 LOAD_FAST                0 (self)
+            160 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            180 LOAD_CONST               6 ('[SYSTEM] Connection to ')
+            182 LOAD_FAST                1 (ip)
+            184 FORMAT_VALUE             0
+            186 LOAD_CONST               7 (' established.\n')
+            188 BUILD_STRING             3
+            190 LOAD_CONST               5 ('system')
+            192 CALL                     2
+            200 POP_TOP
+
+406         202 LOAD_FAST                0 (self)
+            204 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            224 LOAD_CONST               8 ('You are now talking with the ransomware operator.')
+            226 LOAD_CONST               5 ('system')
+            228 CALL                     2
+            236 POP_TOP
+
+407         238 LOAD_FAST                0 (self)
+            240 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            260 LOAD_CONST               9 ('--------------------------------------------------\n')
+            262 LOAD_CONST               5 ('system')
+            264 CALL                     2
+            272 POP_TOP
+
+408         274 LOAD_FAST                0 (self)
+            276 LOAD_ATTR               10 (msg_entry)
+            296 LOAD_ATTR                7 (NULL|self + config)
+            316 LOAD_CONST              10 ('normal')
+            318 KW_NAMES                11 (('state',))
+            320 CALL                     1
+            328 POP_TOP
+
+409         330 LOAD_FAST                0 (self)
+            332 LOAD_ATTR               12 (send_button)
+            352 LOAD_ATTR                7 (NULL|self + config)
+            372 LOAD_CONST              10 ('normal')
+            374 KW_NAMES                11 (('state',))
+            376 CALL                     1
+            384 POP_TOP
+            386 RETURN_CONST             0 (None)
+
+402     >>  388 RETURN_CONST             0 (None)
+
+Disassembly of <code object display_message_in_box at 0x55763e34dbb0, file "challenge_to_compile.py", line 411>:
+411           0 RESUME                   0
+
+412           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (chat_box)
+             24 LOAD_ATTR                3 (NULL|self + config)
+             44 LOAD_CONST               1 ('normal')
+             46 KW_NAMES                 2 (('state',))
+             48 CALL                     1
+             56 POP_TOP
+
+413          58 LOAD_FAST                0 (self)
+             60 LOAD_ATTR                0 (chat_box)
+             80 LOAD_ATTR                5 (NULL|self + insert)
+            100 LOAD_GLOBAL              6 (tk)
+            110 LOAD_ATTR                8 (END)
+            130 LOAD_FAST                1 (message)
+            132 LOAD_CONST               3 ('\n')
+            134 BINARY_OP                0 (+)
+            138 LOAD_FAST                2 (tag)
+            140 CALL                     3
+            148 POP_TOP
+
+414         150 LOAD_FAST                0 (self)
+            152 LOAD_ATTR                0 (chat_box)
+            172 LOAD_ATTR                3 (NULL|self + config)
+            192 LOAD_CONST               4 ('disabled')
+            194 KW_NAMES                 2 (('state',))
+            196 CALL                     1
+            204 POP_TOP
+
+415         206 LOAD_FAST                0 (self)
+            208 LOAD_ATTR                0 (chat_box)
+            228 LOAD_ATTR               11 (NULL|self + see)
+            248 LOAD_GLOBAL              6 (tk)
+            258 LOAD_ATTR                8 (END)
+            278 CALL                     1
+            286 POP_TOP
+
+416         288 LOAD_FAST                0 (self)
+            290 LOAD_ATTR                0 (chat_box)
+            310 LOAD_ATTR               13 (NULL|self + tag_config)
+            330 LOAD_CONST               5 ('user')
+            332 LOAD_CONST               6 ('blue')
+            334 KW_NAMES                 7 (('foreground',))
+            336 CALL                     2
+            344 POP_TOP
+
+417         346 LOAD_FAST                0 (self)
+            348 LOAD_ATTR                0 (chat_box)
+            368 LOAD_ATTR               13 (NULL|self + tag_config)
+            388 LOAD_CONST               8 ('peer')
+            390 LOAD_CONST               9 ('green')
+            392 KW_NAMES                 7 (('foreground',))
+            394 CALL                     2
+            402 POP_TOP
+
+418         404 LOAD_FAST                0 (self)
+            406 LOAD_ATTR                0 (chat_box)
+            426 LOAD_ATTR               13 (NULL|self + tag_config)
+            446 LOAD_CONST              10 ('system')
+            448 LOAD_CONST              11 ('red')
+            450 KW_NAMES                 7 (('foreground',))
+            452 CALL                     2
+            460 POP_TOP
+
+419         462 LOAD_FAST                0 (self)
+            464 LOAD_ATTR                0 (chat_box)
+            484 LOAD_ATTR               13 (NULL|self + tag_config)
+            504 LOAD_CONST              12 ('error')
+            506 LOAD_CONST              13 ('orange')
+            508 KW_NAMES                 7 (('foreground',))
+            510 CALL                     2
+            518 POP_TOP
+            520 RETURN_CONST             0 (None)
+
+Disassembly of <code object send_message_event at 0x7f36a2030600, file "challenge_to_compile.py", line 421>:
+421           0 RESUME                   0
+
+422           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (msg_entry)
+             24 LOAD_ATTR                3 (NULL|self + get)
+             44 CALL                     0
+             52 STORE_FAST               2 (msg)
+
+423          54 LOAD_FAST                2 (msg)
+             56 POP_JUMP_IF_FALSE      115 (to 288)
+
+424          58 LOAD_FAST                0 (self)
+             60 LOAD_ATTR                5 (NULL|self + display_message_in_box)
+             80 LOAD_CONST               1 ('You: ')
+             82 LOAD_FAST                2 (msg)
+             84 FORMAT_VALUE             0
+             86 BUILD_STRING             2
+             88 LOAD_CONST               2 ('user')
+             90 CALL                     2
+             98 POP_TOP
+
+425         100 LOAD_FAST                0 (self)
+            102 LOAD_ATTR                6 (logic)
+            122 LOAD_ATTR                9 (NULL|self + process_message)
+            142 LOAD_FAST                2 (msg)
+            144 CALL                     1
+            152 UNPACK_SEQUENCE          2
+            156 STORE_FAST               3 (_)
+            158 STORE_FAST               4 (encrypted_msg_display)
+
+426         160 LOAD_FAST                0 (self)
+            162 LOAD_ATTR                5 (NULL|self + display_message_in_box)
+            182 LOAD_CONST               3 ('Peer (Encrypted): ')
+            184 LOAD_FAST                4 (encrypted_msg_display)
+            186 FORMAT_VALUE             0
+            188 BUILD_STRING             2
+            190 LOAD_CONST               4 ('peer')
+            192 CALL                     2
+            200 POP_TOP
+
+427         202 LOAD_FAST                0 (self)
+            204 LOAD_ATTR                0 (msg_entry)
+            224 LOAD_ATTR               11 (NULL|self + delete)
+            244 LOAD_CONST               5 (0)
+            246 LOAD_GLOBAL             12 (tk)
+            256 LOAD_ATTR               14 (END)
+            276 CALL                     2
+            284 POP_TOP
+            286 RETURN_CONST             0 (None)
+
+423     >>  288 RETURN_CONST             0 (None)
+
+Disassembly of <code object toggle_super_safe at 0x7f36a1f9d7c0, file "challenge_to_compile.py", line 429>:
+429           0 RESUME                   0
+
+430           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (super_safe_var)
+             24 LOAD_ATTR                3 (NULL|self + get)
+             44 CALL                     0
+             52 POP_JUMP_IF_FALSE       73 (to 200)
+
+431          54 LOAD_CONST               1 (True)
+             56 LOAD_FAST                0 (self)
+             58 LOAD_ATTR                4 (logic)
+             78 STORE_ATTR               3 (super_safe_mode)
+
+432          88 LOAD_FAST                0 (self)
+             90 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            110 LOAD_CONST               2 ('[SYSTEM] Super-Safe mode enabled. Generating RSA key...')
+            112 LOAD_CONST               3 ('system')
+            114 CALL                     2
+            122 POP_TOP
+
+433         124 LOAD_GLOBAL             11 (NULL + Thread)
+            134 LOAD_FAST                0 (self)
+            136 LOAD_ATTR               12 (generate_rsa_and_update_gui)
+            156 LOAD_CONST               1 (True)
+            158 KW_NAMES                 4 (('target', 'daemon'))
+            160 CALL                     2
+            168 LOAD_ATTR               15 (NULL|self + start)
+            188 CALL                     0
+            196 POP_TOP
+            198 RETURN_CONST             0 (None)
+
+435     >>  200 LOAD_CONST               5 (False)
+            202 LOAD_FAST                0 (self)
+            204 LOAD_ATTR                4 (logic)
+            224 STORE_ATTR               3 (super_safe_mode)
+
+436         234 LOAD_FAST                0 (self)
+            236 LOAD_ATTR                9 (NULL|self + display_message_in_box)
+            256 LOAD_CONST               6 ('[SYSTEM] Super-Safe mode disabled. Reverting to standard LCG-XOR.')
+            258 LOAD_CONST               3 ('system')
+            260 CALL                     2
+            268 POP_TOP
+            270 RETURN_CONST             0 (None)
+
+Disassembly of <code object generate_rsa_and_update_gui at 0x7f36a2049f10, file "challenge_to_compile.py", line 438>:
+438           0 RESUME                   0
+
+439           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (logic)
+             24 LOAD_ATTR                3 (NULL|self + generate_rsa_key_from_lcg)
+             44 CALL                     0
+             52 STORE_FAST               1 (result_msg)
+
+440          54 LOAD_FAST                0 (self)
+             56 LOAD_ATTR                5 (NULL|self + display_message_in_box)
+             76 LOAD_CONST               1 ('[SYSTEM] ')
+             78 LOAD_FAST                1 (result_msg)
+             80 FORMAT_VALUE             0
+             82 BUILD_STRING             2
+             84 LOAD_CONST               2 ('system')
+             86 CALL                     2
+             94 POP_TOP
+             96 RETURN_CONST             0 (None)
+
+Disassembly of <code object load_last_generated_files at 0x55763e378e30, file "challenge_to_compile.py", line 442>:
+442           0 RESUME                   0
+
+443           2 LOAD_GLOBAL              1 (NULL + Toplevel)
+             12 LOAD_FAST                0 (self)
+             14 CALL                     1
+             22 STORE_FAST               1 (files_window)
+
+444          24 LOAD_FAST                1 (files_window)
+             26 LOAD_ATTR                3 (NULL|self + title)
+             46 LOAD_CONST               1 ('Generated Files')
+             48 CALL                     1
+             56 POP_TOP
+
+445          58 LOAD_FAST                1 (files_window)
+             60 LOAD_ATTR                5 (NULL|self + geometry)
+             80 LOAD_CONST               2 ('700x500')
+             82 CALL                     1
+             90 POP_TOP
+
+447          92 LOAD_GLOBAL              7 (NULL + tk)
+            102 LOAD_ATTR                8 (Label)
+            122 LOAD_FAST                1 (files_window)
+            124 LOAD_CONST               3 ('chat_log.json')
+            126 LOAD_CONST               4 (('Helvetica', 12, 'bold'))
+            128 KW_NAMES                 5 (('text', 'font'))
+            130 CALL                     3
+            138 LOAD_ATTR               11 (NULL|self + pack)
+            158 LOAD_CONST               6 ((10, 0))
+            160 KW_NAMES                 7 (('pady',))
+            162 CALL                     1
+            170 POP_TOP
+
+448         172 LOAD_GLOBAL             13 (NULL + scrolledtext)
+            182 LOAD_ATTR               14 (ScrolledText)
+            202 LOAD_FAST                1 (files_window)
+            204 LOAD_GLOBAL              6 (tk)
+            214 LOAD_ATTR               16 (WORD)
+            234 LOAD_CONST               8 (15)
+            236 KW_NAMES                 9 (('wrap', 'height'))
+            238 CALL                     3
+            246 STORE_FAST               2 (json_text_area)
+
+449         248 LOAD_FAST                2 (json_text_area)
+            250 LOAD_ATTR               11 (NULL|self + pack)
+            270 LOAD_CONST              10 (True)
+            272 LOAD_CONST              11 ('both')
+            274 LOAD_CONST              12 (10)
+            276 LOAD_CONST              13 (5)
+            278 KW_NAMES                14 (('expand', 'fill', 'padx', 'pady'))
+            280 CALL                     4
+            288 POP_TOP
+
+451         290 NOP
+
+452         292 LOAD_GLOBAL             19 (NULL + resource_path)
+            302 LOAD_CONST               3 ('chat_log.json')
+            304 CALL                     1
+            312 STORE_FAST               3 (json_path)
+
+453         314 LOAD_GLOBAL             21 (NULL + open)
+            324 LOAD_FAST                3 (json_path)
+            326 LOAD_CONST              15 ('r')
+            328 CALL                     2
+            336 BEFORE_WITH
+            338 STORE_FAST               4 (f)
+
+454         340 LOAD_GLOBAL             23 (NULL + json)
+            350 LOAD_ATTR               24 (load)
+            370 LOAD_FAST                4 (f)
+            372 CALL                     1
+            380 STORE_FAST               5 (json_data)
+
+455         382 LOAD_GLOBAL             23 (NULL + json)
+            392 LOAD_ATTR               26 (dumps)
+            412 LOAD_FAST                5 (json_data)
+            414 LOAD_CONST              16 (2)
+            416 KW_NAMES                17 (('indent',))
+            418 CALL                     2
+            426 STORE_FAST               6 (pretty_json)
+
+456         428 LOAD_FAST                2 (json_text_area)
+            430 LOAD_ATTR               29 (NULL|self + insert)
+            450 LOAD_GLOBAL              6 (tk)
+            460 LOAD_ATTR               30 (END)
+            480 LOAD_FAST                6 (pretty_json)
+            482 CALL                     2
+            490 POP_TOP
+
+453         492 LOAD_CONST               0 (None)
+            494 LOAD_CONST               0 (None)
+            496 LOAD_CONST               0 (None)
+            498 CALL                     2
+            506 POP_TOP
+
+461     >>  508 LOAD_FAST                2 (json_text_area)
+            510 LOAD_ATTR               37 (NULL|self + config)
+            530 LOAD_CONST              20 ('disabled')
+            532 KW_NAMES                21 (('state',))
+            534 CALL                     1
+            542 POP_TOP
+
+463         544 LOAD_GLOBAL              7 (NULL + tk)
+            554 LOAD_ATTR                8 (Label)
+            574 LOAD_FAST                1 (files_window)
+            576 LOAD_CONST              22 ('public.pem')
+            578 LOAD_CONST               4 (('Helvetica', 12, 'bold'))
+            580 KW_NAMES                 5 (('text', 'font'))
+            582 CALL                     3
+            590 LOAD_ATTR               11 (NULL|self + pack)
+            610 LOAD_CONST               6 ((10, 0))
+            612 KW_NAMES                 7 (('pady',))
+            614 CALL                     1
+            622 POP_TOP
+
+464         624 LOAD_GLOBAL             13 (NULL + scrolledtext)
+            634 LOAD_ATTR               14 (ScrolledText)
+            654 LOAD_FAST                1 (files_window)
+            656 LOAD_GLOBAL              6 (tk)
+            666 LOAD_ATTR               16 (WORD)
+            686 LOAD_CONST              23 (8)
+            688 KW_NAMES                 9 (('wrap', 'height'))
+            690 CALL                     3
+            698 STORE_FAST               8 (pem_text_area)
+
+465         700 LOAD_FAST                8 (pem_text_area)
+            702 LOAD_ATTR               11 (NULL|self + pack)
+            722 LOAD_CONST              10 (True)
+            724 LOAD_CONST              11 ('both')
+            726 LOAD_CONST              12 (10)
+            728 LOAD_CONST              24 ((5, 10))
+            730 KW_NAMES                14 (('expand', 'fill', 'padx', 'pady'))
+            732 CALL                     4
+            740 POP_TOP
+
+467         742 NOP
+
+468         744 LOAD_GLOBAL             19 (NULL + resource_path)
+            754 LOAD_CONST              22 ('public.pem')
+            756 CALL                     1
+            764 STORE_FAST               9 (pem_path)
+
+469         766 LOAD_GLOBAL             21 (NULL + open)
+            776 LOAD_FAST                9 (pem_path)
+            778 LOAD_CONST              15 ('r')
+            780 CALL                     2
+            788 BEFORE_WITH
+            790 STORE_FAST               4 (f)
+
+470         792 LOAD_FAST                4 (f)
+            794 LOAD_ATTR               39 (NULL|self + read)
+            814 CALL                     0
+            822 STORE_FAST              10 (pem_data)
+
+471         824 LOAD_FAST                8 (pem_text_area)
+            826 LOAD_ATTR               29 (NULL|self + insert)
+            846 LOAD_GLOBAL              6 (tk)
+            856 LOAD_ATTR               30 (END)
+            876 LOAD_FAST               10 (pem_data)
+            878 CALL                     2
+            886 POP_TOP
+
+469         888 LOAD_CONST               0 (None)
+            890 LOAD_CONST               0 (None)
+            892 LOAD_CONST               0 (None)
+            894 CALL                     2
+            902 POP_TOP
+
+476     >>  904 LOAD_FAST                8 (pem_text_area)
+            906 LOAD_ATTR               37 (NULL|self + config)
+            926 LOAD_CONST              20 ('disabled')
+            928 KW_NAMES                21 (('state',))
+            930 CALL                     1
+            938 POP_TOP
+            940 RETURN_CONST             0 (None)
+
+453     >>  942 PUSH_EXC_INFO
+            944 WITH_EXCEPT_START
+            946 POP_JUMP_IF_TRUE         1 (to 950)
+            948 RERAISE                  2
+        >>  950 POP_TOP
+            952 POP_EXCEPT
+            954 POP_TOP
+            956 POP_TOP
+            958 JUMP_BACKWARD          226 (to 508)
+        >>  960 COPY                     3
+            962 POP_EXCEPT
+            964 RERAISE                  1
+        >>  966 PUSH_EXC_INFO
+
+457         968 LOAD_GLOBAL             32 (FileNotFoundError)
+            978 CHECK_EXC_MATCH
+            980 POP_JUMP_IF_FALSE       36 (to 1054)
+            982 POP_TOP
+
+458         984 LOAD_FAST                2 (json_text_area)
+            986 LOAD_ATTR               29 (NULL|self + insert)
+           1006 LOAD_GLOBAL              6 (tk)
+           1016 LOAD_ATTR               30 (END)
+           1036 LOAD_CONST              18 ('chat_log.json not found.\n\nSend a message to generate it.')
+           1038 CALL                     2
+           1046 POP_TOP
+           1048 POP_EXCEPT
+           1050 EXTENDED_ARG             1
+           1052 JUMP_BACKWARD          273 (to 508)
+
+459     >> 1054 LOAD_GLOBAL             34 (Exception)
+           1064 CHECK_EXC_MATCH
+           1066 POP_JUMP_IF_FALSE       46 (to 1160)
+           1068 STORE_FAST               7 (e)
+
+460        1070 LOAD_FAST                2 (json_text_area)
+           1072 LOAD_ATTR               29 (NULL|self + insert)
+           1092 LOAD_GLOBAL              6 (tk)
+           1102 LOAD_ATTR               30 (END)
+           1122 LOAD_CONST              19 ('Error reading chat_log.json:\n')
+           1124 LOAD_FAST                7 (e)
+           1126 FORMAT_VALUE             0
+           1128 BUILD_STRING             2
+           1130 CALL                     2
+           1138 POP_TOP
+           1140 POP_EXCEPT
+           1142 LOAD_CONST               0 (None)
+           1144 STORE_FAST               7 (e)
+           1146 DELETE_FAST              7 (e)
+           1148 EXTENDED_ARG             1
+           1150 JUMP_BACKWARD          322 (to 508)
+        >> 1152 LOAD_CONST               0 (None)
+           1154 STORE_FAST               7 (e)
+           1156 DELETE_FAST              7 (e)
+           1158 RERAISE                  1
+
+459     >> 1160 RERAISE                  0
+        >> 1162 COPY                     3
+           1164 POP_EXCEPT
+           1166 RERAISE                  1
+
+469     >> 1168 PUSH_EXC_INFO
+           1170 WITH_EXCEPT_START
+           1172 POP_JUMP_IF_TRUE         1 (to 1176)
+           1174 RERAISE                  2
+        >> 1176 POP_TOP
+           1178 POP_EXCEPT
+           1180 POP_TOP
+           1182 POP_TOP
+           1184 JUMP_BACKWARD          141 (to 904)
+        >> 1186 COPY                     3
+           1188 POP_EXCEPT
+           1190 RERAISE                  1
+        >> 1192 PUSH_EXC_INFO
+
+472        1194 LOAD_GLOBAL             32 (FileNotFoundError)
+           1204 CHECK_EXC_MATCH
+           1206 POP_JUMP_IF_FALSE       35 (to 1278)
+           1208 POP_TOP
+
+473        1210 LOAD_FAST                8 (pem_text_area)
+           1212 LOAD_ATTR               29 (NULL|self + insert)
+           1232 LOAD_GLOBAL              6 (tk)
+           1242 LOAD_ATTR               30 (END)
+           1262 LOAD_CONST              25 ("public.pem not found.\n\nEnable 'Super-Safe Encryption' to generate it.")
+           1264 CALL                     2
+           1272 POP_TOP
+           1274 POP_EXCEPT
+           1276 JUMP_BACKWARD          187 (to 904)
+
+474     >> 1278 LOAD_GLOBAL             34 (Exception)
+           1288 CHECK_EXC_MATCH
+           1290 POP_JUMP_IF_FALSE       45 (to 1382)
+           1292 STORE_FAST               7 (e)
+
+475        1294 LOAD_FAST                8 (pem_text_area)
+           1296 LOAD_ATTR               29 (NULL|self + insert)
+           1316 LOAD_GLOBAL              6 (tk)
+           1326 LOAD_ATTR               30 (END)
+           1346 LOAD_CONST              26 ('Error reading public.pem:\n')
+           1348 LOAD_FAST                7 (e)
+           1350 FORMAT_VALUE             0
+           1352 BUILD_STRING             2
+           1354 CALL                     2
+           1362 POP_TOP
+           1364 POP_EXCEPT
+           1366 LOAD_CONST               0 (None)
+           1368 STORE_FAST               7 (e)
+           1370 DELETE_FAST              7 (e)
+           1372 JUMP_BACKWARD          235 (to 904)
+        >> 1374 LOAD_CONST               0 (None)
+           1376 STORE_FAST               7 (e)
+           1378 DELETE_FAST              7 (e)
+           1380 RERAISE                  1
+
+474     >> 1382 RERAISE                  0
+        >> 1384 COPY                     3
+           1386 POP_EXCEPT
+           1388 RERAISE                  1
+ExceptionTable:
+  292 to 336 -> 966 [0]
+  338 to 490 -> 942 [1] lasti
+  492 to 506 -> 966 [0]
+  744 to 788 -> 1192 [0]
+  790 to 886 -> 1168 [1] lasti
+  888 to 902 -> 1192 [0]
+  942 to 950 -> 960 [3] lasti
+  952 to 964 -> 966 [0]
+  966 to 1046 -> 1162 [1] lasti
+  1054 to 1068 -> 1162 [1] lasti
+  1070 to 1138 -> 1152 [1] lasti
+  1152 to 1160 -> 1162 [1] lasti
+  1168 to 1176 -> 1186 [3] lasti
+  1178 to 1190 -> 1192 [0]
+  1192 to 1272 -> 1384 [1] lasti
+  1278 to 1292 -> 1384 [1] lasti
+  1294 to 1362 -> 1374 [1] lasti
+  1374 to 1382 -> 1384 [1] lasti
