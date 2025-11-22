@@ -1,4 +1,5 @@
 # Flare-on 12
+![alt text](score.png)
 This was my first time participating in Flare-on! I really enjoyed it because it is fully focused on reverse engineering, and the challenges scale in difficulty quite well. Will definitely take part in future editions.
 
 Here are my writeups for:
